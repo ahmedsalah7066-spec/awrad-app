@@ -104,4 +104,9 @@
     <string name="retry">Повторить</string>
     <string name="share_app">Поделиться приложением</string>
     <string name="share_msg">Оцените Awrad: Ежедневные азкары и Мунаджаты</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Напоминание о зикре</string>
+    <string name="notif_msg_salawat">Читайте салават на Посланника Аллаха ﷺ</string>
+    <string name="notif_msg_dhikr">Поминайте Аллаха</string>
+    <string name="notif_msg_istighfar">Просите прощения у Аллаха</string>
 </resources>

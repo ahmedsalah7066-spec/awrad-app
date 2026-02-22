@@ -1,5 +1,6 @@
 package com.example.awrad
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
@@ -30,7 +31,35 @@ class SettingsActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
 
-        // ... (lines 30-87 omitted) ...
+        // Check and request POST_NOTIFICATIONS permission on Android 13+
+        checkAndRequestPermissions()
+
+        // --- Notification Switch ---
+        switchNotifications = findViewById(R.id.switchNotifications)
+        val prefs = getSharedPreferences("Settings", Context.MODE_PRIVATE)
+        switchNotifications.isChecked = prefs.getBoolean("notifications_enabled", true)
+
+        switchNotifications.setOnCheckedChangeListener { _, isChecked ->
+            prefs.edit().putBoolean("notifications_enabled", isChecked).apply()
+            if (isChecked) {
+                NotificationScheduler.scheduleNotifications(this)
+            } else {
+                NotificationScheduler.cancelNotifications(this)
+            }
+        }
+
+        // --- Notification Interval Button ---
+        val btnNotificationSettings = findViewById<android.widget.TextView>(R.id.btnNotificationSettings)
+        val savedInterval = prefs.getInt("notification_interval", 30)
+        updateIntervalText(savedInterval)
+
+        btnNotificationSettings.setOnClickListener {
+            showIntervalDialog()
+        }
+
+        // --- Header Back Arrow ---
+        val btnBack = findViewById<android.widget.ImageView>(R.id.btnBack)
+        btnBack?.setOnClickListener { finish() }
 
         // Language Card
         val cardLanguage = findViewById<MaterialCardView>(R.id.cardLanguage)
@@ -116,11 +145,12 @@ class SettingsActivity : BaseActivity() {
     }
 
     private fun showLanguageDialog() {
-        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O\'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский")
+        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O\'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.feature_multilingual))
         
-        builder.setItems(languages) { _, which ->
+        val adapter = android.widget.ArrayAdapter(this, R.layout.dialog_item_language, languages)
+        builder.setAdapter(adapter) { _, which ->
             val langCode = when (which) {
                 1 -> "en"
                 2 -> "ar"
@@ -132,6 +162,8 @@ class SettingsActivity : BaseActivity() {
                 8 -> "fr"
                 9 -> "bn"
                 10 -> "ru"
+                11 -> "hi"
+                12 -> "fa"
                 else -> "" // Default/System
             }
 
@@ -164,6 +196,8 @@ class SettingsActivity : BaseActivity() {
             "fr" -> "Français"
             "bn" -> "বাংলা"
             "ru" -> "Русский"
+            "hi" -> "हिन्दी"
+            "fa" -> "فارسی"
             else -> "System Default"
         }
     }

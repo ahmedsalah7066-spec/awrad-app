@@ -103,4 +103,9 @@
     <string name="updating">Güncelleniyor...</string>
     <string name="update_success">Veri başarıyla güncellendi</string>
     <string name="update_error">Veri güncellenirken hata oluştu</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Zikir Hatırlatıcısı</string>
+    <string name="notif_msg_salawat">Peygamber Efendimiz\'e (s.a.v) salatu selam getirin</string>
+    <string name="notif_msg_dhikr">Allah\'ı zikredin</string>
+    <string name="notif_msg_istighfar">Allah\'tan af dileyin (İstiğfar)</string>
 </resources>

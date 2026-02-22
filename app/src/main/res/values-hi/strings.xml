@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">अवरद (Awrad)</string>
+    <string name="title_main">अवरद (Awrad)</string>
+    <string name="wird_today_title">आज का विरद</string>
+    <string name="wird_today_desc">अपना दैनिक विरद पढ़ना शुरू करें</string>
+    <string name="start_reading">पढ़ना शुरू करें</string>
+    <string name="munajat_title">दैनिक मुनाजात</string>
+    <string name="munajat_desc">अल्लाह के साथ आध्यात्मिक बातचीत</string>
+    <string name="dalail_title">दलाइल अल-खैरात</string>
+    <string name="awrad_title">दलाइल अल-खैरात</string>
+    <string name="dalail_desc">पैगंबर (सल्लल्लाहु अलैहि व सल्लम) पर दरूद और सलाम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="notification_interval_title">रिमाइंडर फ्रीक्वेंसी</string>
+    <string name="tasbih">हिसनुल मुस्लिम</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">हिसनुल मुस्लिम</string>
+    <string name="hisn_morning">सुबह के अज़कार</string>
+    <string name="hisn_evening">शाम के अज़कार</string>
+    <string name="hisn_sleep">सोने के अज़कार</string>
+    <string name="hisn_prayer">नमाज़ के अज़कार</string>
+    <string name="hisn_food">खाना खाने के अज़कार</string>
+    <string name="hisn_travel">सफ़र के अज़कार</string>
+    <string name="hisn_mosque">मस्जिद के अज़कार</string>
+    <string name="hisn_tasbeehat">तस्बीहात</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">रीसेट करें</string>
+    <string name="counter_count">गिनती: %1$d</string>
+    <string name="counter_target">लक्ष्य: %1$d</string>
+    <string name="istiftah_title">सना (अल-इस्तिफ्ताह)</string>
+    <string name="ibrahimi_title">दरूदे इब्राहीमी</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">अज़कार रिमाइंडर</string>
+    <string name="notification_desc">दरूद और इस्तिगफार की याद</string>
+    <string name="enable_notifications">रिमाइंडर चालू करें</string>
+    <string name="advanced_settings">उन्नत रिमाइंडर सेटिंग्स</string>
+    <string name="about_app">ऐप के बारे में</string>
+    <string name="about_desc">एप्लिकेशन और उसकी विशेषताओं के बारे में विस्तृत जानकारी</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">अवरद एप्लिकेशन</string>
+    <string name="app_version">Version 2.3.2</string>
+    <string name="about_app_desc_1">अवरद (Awrad) एक पूर्ण इस्लामी एप्लिकेशन है जो दैनिक अज़कार और इमाम ज़ैनुल आबिदीन (अलैहिस्सलाम) की मुनाजात एकत्र करता है। यह आपके दिन में आध्यात्मिकता बनाए रखने में मदद करता है।</string>
+    <string name="about_app_desc_2">एप्लिकेशन एक आसान और शांत डिजाइन प्रदान करता है जो आंखों के लिए आरामदायक है, और आपको विशुद्ध रूप से इबादत पर ध्यान केंद्रित करने में मदद करता है।</string>
+    <string name="app_features">विशेषताएँ</string>
+    <string name="feature_awrad">दैनिक अवरद</string>
+    <string name="feature_awrad_desc">सप्ताह के प्रत्येक दिन के लिए सात अलग-अलग विरद, जिसमें सटीक उच्चारण के साथ दरूद और आशीर्वाद शामिल हैं।</string>
+    <string name="feature_munajat">इमाम ज़ैनुल आबिदीन की मुनाजात</string>
+    <string name="feature_munajat_desc">सहीफा सज्जादिया से पंद्रह मुनाजात जो दैनिक विरद से जुड़े हैं, जिन्हें किसी भी समय पढ़ने का विकल्प है।</string>
+    <string name="feature_tasbih">इलेक्ट्रॉनिक तस्बीह</string>
+    <string name="feature_tasbih_desc">स्मार्ट काउंटर और प्रत्येक गिनती पर वाइब्रेशन के साथ डिजिटल तस्बीह।</string>
+    <string name="feature_multilingual">बहुभाषी समर्थन</string>
+    <string name="feature_multilingual_desc">अरबी, अंग्रेजी, उर्दू, हिंदी, मलयालम, फ्रेंच, बंगाली और अन्य भाषाओं के लिए पूर्ण समर्थन।</string>
+    <string name="feature_hisn">हिसनुल मुस्लिम</string>
+    <string name="feature_hisn_desc">सुबह और शाम, नींद, नमाज़, भोजन, यात्रा और मस्जिद के अज़कार का पूरा संग्रह।</string>
+    <string name="feature_notifications">रिमाइंडर</string>
+    <string name="feature_notifications_desc">एक उन्नत सूचना प्रणाली जो आपको इस्तिगफार और दरूद के लिए 5 मिनट से 3 घंटे तक का समय निर्धारित करने की अनुमति देती है।</string>
+    <string name="footer_dua">हम अल्लाह से दुआ करते हैं कि वह इस काम को अपनी खुशी के लिए कबूल करे, मुसलमानों को इससे लाभान्वित करे, और इसे उन सबके नेक आमाल में जोड़े जिन्होंने इसमें योगदान दिया है।</string>
+    <string name="footer_ameen">आमीन</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">शनिवार का विरद</string>
+    <string name="dalail_sunday">रविवार का विरद</string>
+    <string name="dalail_monday">सोमवार का विरद</string>
+    <string name="dalail_tuesday">मंगलवार का विरद</string>
+    <string name="dalail_wednesday">बुधवार का विरद</string>
+    <string name="dalail_thursday">गुरुवार का विरद</string>
+    <string name="dalail_friday">शुक्रवार का विरद</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">ज़ाहिदों (तपस्वियों) की मुनाजात</string>
+    <string name="munajat_raghibin_1">अकांक्षियों की मुनाजात (1)</string>
+    <string name="munajat_dhakirin">ज़िक्र करने वालों की मुनाजात</string>
+    <string name="munajat_arifin">आरिफों (ज्ञानियों) की मुनाजात</string>
+    <string name="munajat_muftaqirin">ज़रूरतमंदों की मुनाजात</string>
+    <string name="munajat_mutawassilin">पनाह मांगने वालों की मुनाजात</string>
+    <string name="munajat_muhibbin">प्रेमियों की मुनाजात</string>
+    <string name="munajat_muridin">मुरीदों (अनुयायियों) की मुनाजात</string>
+    <string name="munajat_mutiin">आज्ञाकारियों की मुनाजात</string>
+    <string name="munajat_shakirin">शुक्रगुज़ार लोगों की मुनाजात</string>
+    <string name="munajat_rajin">उम्मीदवारों की मुनाजात</string>
+    <string name="munajat_raghibin_2">अकांक्षियों की मुनाजात (2)</string>
+    <string name="munajat_khaifin">डरने वालों की मुनाजात</string>
+    <string name="munajat_shakin">शिकायत करने वालों की मुनाजात</string>
+    <string name="munajat_taibin">तौबा करने वालों की मुनाजात</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">सामग्री अपडेट करें</string>
+    <string name="settings_update_desc">एप्लिकेशन डेटा और अनुवाद ताज़ा करें</string>
+    <string name="updating">अपडेट हो रहा है...</string>
+    <string name="update_success">डेटा सफलतापूर्वक अपडेट किया गया</string>
+    <string name="update_error">डेटा अपडेट करने में त्रुटि</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="error_loading">सामग्री लोड करने में त्रुटि</string>
+    <string name="feature_settings">सेटिंग्स</string>
+    <string name="feature_settings_desc">एप्लिकेशन सेटिंग्स कस्टमाइज़ करें</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="share_app">ऐप साझा करें</string>
+    <string name="share_msg">अवरद (Awrad) ऐप डाउनलोड करें: दैनिक अज़कार और मुनाजात के लिए सबसे अच्छा ऐप</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">ज़िक्र की याद दिलाएं</string>
+    <string name="notif_msg_salawat">अल्लाह के रसूल ﷺ पर दरूद भेजें</string>
+    <string name="notif_msg_dhikr">अल्लाह को याद करें</string>
+    <string name="notif_msg_istighfar">अल्लाह से माफ़ी मांगें</string>
+</resources>

@@ -47,9 +47,11 @@ class MainActivity : BaseActivity() {
             languageSyncManager.seedFromJson("tr", jsonDataLoader, forceUpdate = true)
             languageSyncManager.seedFromJson("ru", jsonDataLoader, forceUpdate = true)
             languageSyncManager.seedFromJson("ml", jsonDataLoader, forceUpdate = true)
+            languageSyncManager.seedFromJson("hi", jsonDataLoader, forceUpdate = true)
+            languageSyncManager.seedFromJson("fa", jsonDataLoader, forceUpdate = true)
 
             // 2. If language is NOT embedded, download from Firebase
-            val embeddedLangs = setOf("ar", "en", "ur", "tr", "ml", "uz", "id", "fr", "bn", "ru")
+            val embeddedLangs = setOf("ar", "en", "ur", "tr", "ml", "uz", "id", "fr", "bn", "ru", "hi", "fa")
             if (!embeddedLangs.contains(lang)) {
                 if (!languageSyncManager.isLanguageCached(lang)) {
                     Toast.makeText(this@MainActivity, "Downloading $lang content...", Toast.LENGTH_SHORT).show()
@@ -115,11 +117,12 @@ class MainActivity : BaseActivity() {
     }
 
     private fun showLanguageDialog() {
-        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский")
+        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.feature_multilingual))
 
-        builder.setItems(languages) { _, which ->
+        val adapter = android.widget.ArrayAdapter(this, R.layout.dialog_item_language, languages)
+        builder.setAdapter(adapter) { _, which ->
             val langCode = when (which) {
                 1 -> "en"
                 2 -> "ar"
@@ -131,6 +134,8 @@ class MainActivity : BaseActivity() {
                 8 -> "fr"
                 9 -> "bn"
                 10 -> "ru"
+                11 -> "hi"
+                12 -> "fa"
                 else -> "" // Default/System
             }
 

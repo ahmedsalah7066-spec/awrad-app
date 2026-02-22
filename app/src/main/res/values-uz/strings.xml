@@ -104,4 +104,9 @@
     <string name="retry">Қайта уриниш</string>
     <string name="share_app">Иловани улашиш</string>
     <string name="share_msg">Аврод иловасини кўриб чиқинг: Кундалик Зикрлар ва Муножотлар</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Зикр эслатмаси</string>
+    <string name="notif_msg_salawat">Аллоҳнинг Расулига (с.а.в) салавот айтинг</string>
+    <string name="notif_msg_dhikr">Аллоҳни зикр қилинг</string>
+    <string name="notif_msg_istighfar">Аллоҳдан мағфират сўранг</string>
 </resources>

@@ -95,4 +95,9 @@
     <string name="updating">تازہ ہو رہا ہے...</string>
     <string name="update_success">ڈیٹا کامیابی سے تازہ ہو گیا</string>
     <string name="update_error">ڈیٹا کی تازہ کاری میں خرابی</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">ذکر کی یاد دہانی</string>
+    <string name="notif_msg_salawat">رسول اللہ ﷺ پر درود بھیجیں</string>
+    <string name="notif_msg_dhikr">اللہ کا ذکر کریں</string>
+    <string name="notif_msg_istighfar">اللہ سے مغفرت مانگیں</string>
 </resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اوراد (Awrad)</string>
+    <string name="title_main">اوراد (Awrad)</string>
+    <string name="wird_today_title">ورد امروز</string>
+    <string name="wird_today_desc">خواندن ورد روزانه خود را شروع کنید</string>
+    <string name="start_reading">شروع به خواندن</string>
+    <string name="munajat_title">مناجات روزانه</string>
+    <string name="munajat_desc">گفتگوی معنوی با خداوند</string>
+    <string name="dalail_title">دلایل الخیرات</string>
+    <string name="awrad_title">دلایل الخیرات</string>
+    <string name="dalail_desc">درود و سلام بر پیامبر (ص)</string>
+    <string name="settings">تنظیمات</string>
+    <string name="notification_interval_title">فرکانس یادآوری</string>
+    <string name="tasbih">حصن المسلم</string>
+    <string name="font_size">اندازه فونت</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">حصن المسلم</string>
+    <string name="hisn_morning">اذکار صبح</string>
+    <string name="hisn_evening">اذکار عصر</string>
+    <string name="hisn_sleep">اذکار خواب</string>
+    <string name="hisn_prayer">اذکار نماز</string>
+    <string name="hisn_food">اذکار غذا</string>
+    <string name="hisn_travel">اذکار سفر</string>
+    <string name="hisn_mosque">اذکار مسجد</string>
+    <string name="hisn_tasbeehat">تسبیحات</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">تنظیم مجدد</string>
+    <string name="counter_count">شمارش: %1$d</string>
+    <string name="counter_target">هدف: %1$d</string>
+    <string name="istiftah_title">ثنا (الاستفتاح)</string>
+    <string name="ibrahimi_title">درود ابراهیمی</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">یادآور اذکار</string>
+    <string name="notification_desc">یادآور درود و استغفار</string>
+    <string name="enable_notifications">فعال‌سازی یادآور</string>
+    <string name="advanced_settings">تنظیمات پیشرفته یادآور</string>
+    <string name="about_app">درباره برنامه</string>
+    <string name="about_desc">اطلاعات دقیق درباره برنامه و ویژگی‌های آن</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">برنامه اوراد</string>
+    <string name="app_version">نسخه 2.3.2</string>
+    <string name="about_app_desc_1">اوراد (Awrad) یک برنامه کاربردی جامع اسلامی است که اذکار روزانه و مناجات امام زین‌العابدین (ع) را در خود جای داده است. این برنامه به شما در حفظ معنویت در طول روز کمک می‌کند.</string>
+    <string name="about_app_desc_2">این برنامه با طراحی ساده و آرامش‌بخش، باعث راحتی چشم شده و به شما کمک می‌کند تماماً روی عبادت تمرکز کنید.</string>
+    <string name="app_features">ویژگی‌ها</string>
+    <string name="feature_awrad">اوراد روزانه</string>
+    <string name="feature_awrad_desc">هفت ورد متفاوت، با درودها و دعاهای مبارک بر پیامبر (ص) به تفکیک روزهای هفته، با تلفظ دقیق.</string>
+    <string name="feature_munajat">مناجات امام زین‌العابدین</string>
+    <string name="feature_munajat_desc">پانزده مناجات پرفیض از صحیفه سجادیه که هر روز یک مورد به ورد روزانه ضمیمه می‌شود تا در صورت تمایل، هر زمان آن را قرائت کنید.</string>
+    <string name="feature_tasbih">تسبیح الکترونیکی</string>
+    <string name="feature_tasbih_desc">تسبیح دیجیتال با شمارنده هوشمند و بازخورد لرزشی در هر شمارش.</string>
+    <string name="feature_multilingual">پشتیبانی چندزبانه</string>
+    <string name="feature_multilingual_desc">پشتیبانی کامل از زبان‌های عربی، انگلیسی، اردو، هندی، مالایالم، فرانسوی، و بنگالی.</string>
+    <string name="feature_hisn">حصن المسلم</string>
+    <string name="feature_hisn_desc">کتابخانه‌ای کامل از اذکار صبح و عصر، خواب، نماز، غذا، سفر و مسجد.</string>
+    <string name="feature_notifications">اعلان‌های یادآوری</string>
+    <string name="feature_notifications_desc">یک سیستم یادآوری پیشرفته برای تنظیم زمان یادآوری از هر ۵ دقیقه تا هر ۳ ساعت، برای درود و استغفار.</string>
+    <string name="footer_dua">از خداوند متعال مسألت داریم که این کار را صرفاً برای کسب رضای خود بپذیرد، به مسلمانان سود برساند و آن را در کارنامه اعمال نیک تمامی کسانی که در آن سهیم بوده‌اند قرار دهد.</string>
+    <string name="footer_ameen">آمین، یا رب العالمین</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">ورد روز شنبه</string>
+    <string name="dalail_sunday">ورد روز یکشنبه</string>
+    <string name="dalail_monday">ورد روز دوشنبه</string>
+    <string name="dalail_tuesday">ورد روز سه‌شنبه</string>
+    <string name="dalail_wednesday">ورد روز چهارشنبه</string>
+    <string name="dalail_thursday">ورد روز پنجشنبه</string>
+    <string name="dalail_friday">ورد روز جمعه</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">مناجات زاهدین</string>
+    <string name="munajat_raghibin_1">مناجات راغبین (۱)</string>
+    <string name="munajat_dhakirin">مناجات ذاکرین</string>
+    <string name="munajat_arifin">مناجات عارفین</string>
+    <string name="munajat_muftaqirin">مناجات نیازمندان</string>
+    <string name="munajat_mutawassilin">مناجات متوسلین (پناهندگان به خدا)</string>
+    <string name="munajat_muhibbin">مناجات محبین (عاشقان)</string>
+    <string name="munajat_muridin">مناجات مریدین (ارادتمندان)</string>
+    <string name="munajat_mutiin">مناجات مطیعین (فرمانبرداران)</string>
+    <string name="munajat_shakirin">مناجات شاکرین</string>
+    <string name="munajat_rajin">مناجات امیدواران</string>
+    <string name="munajat_raghibin_2">مناجات راغبین (۲)</string>
+    <string name="munajat_khaifin">مناجات خائفین</string>
+    <string name="munajat_shakin">مناجات شاکین (شکایت کنندگان)</string>
+    <string name="munajat_taibin">مناجات تائبین (توبه کنندگان)</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">به‌روزرسانی محتوا</string>
+    <string name="settings_update_desc">داده‌ها و ترجمه‌های برنامه را به‌روز کنید</string>
+    <string name="updating">در حال به‌روزرسانی...</string>
+    <string name="update_success">دلیل با موفقیت به‌روزرسانی شد</string>
+    <string name="update_error">خطا در به‌روزرسانی داده‌ها</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">تماس با ما</string>
+    <string name="error_loading">خطا در بارگیری محتوا</string>
+    <string name="feature_settings">تنظیمات</string>
+    <string name="feature_settings_desc">تنظیمات برنامه را سفارشی کنید</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="share_app">اشتراک‌گذاری برنامه</string>
+    <string name="share_msg">برنامه اوراد (Awrad) را نصب کنید: بهترین برنامه برای اذکار و مناجات روزانه</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">یادآور ذکر</string>
+    <string name="notif_msg_salawat">بر رسول الله ﷺ صلوات بفرستید</string>
+    <string name="notif_msg_dhikr">خدا را یاد کنید</string>
+    <string name="notif_msg_istighfar">از خداوند طلب مغفرت کنید</string>
+</resources>

@@ -104,4 +104,9 @@
     <string name="retry">Réessayer</string>
     <string name="share_app">Partager l\'Application</string>
     <string name="share_msg">Découvrez Awrad : l\'application des Adhkar Quotidiens et Munajat</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Rappel de Dhikr</string>
+    <string name="notif_msg_salawat">Invoquez les bénédictions sur le Messager d\'Allah ﷺ</string>
+    <string name="notif_msg_dhikr">Rappelez-vous d\'Allah</string>
+    <string name="notif_msg_istighfar">Demandez pardon à Allah</string>
 </resources>

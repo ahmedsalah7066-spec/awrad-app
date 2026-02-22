@@ -103,4 +103,9 @@
     <string name="retry">Retry</string>
     <string name="share_app">Share App</string>
     <string name="share_msg">Check out Awrad: Daily Adhkar and Munajat app</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Dhikr Reminder</string>
+    <string name="notif_msg_salawat">Peace and blessings upon the Messenger of Allah ﷺ</string>
+    <string name="notif_msg_dhikr">Remember Allah</string>
+    <string name="notif_msg_istighfar">Seek forgiveness from Allah</string>
 </resources>

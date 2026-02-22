@@ -16,47 +16,50 @@ class NotificationReceiver : BroadcastReceiver() {
         // Show the notification
         showNotification(context)
         
-        // Schedule the next one
+        // Schedule the next one (chaining)
         NotificationScheduler.scheduleNotifications(context)
     }
 
     private fun showNotification(context: Context) {
-        val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        val channelId = "dhikr_channel" // Must match NotificationScheduler
+        // Apply the user's selected locale so getString() returns localised text
+        val localizedContext = LocaleManager.setLocale(context)
 
-        // Channel is already created in NotificationScheduler, but good to ensure
+        val notificationManager = localizedContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        val channelId = "dhikr_channel"
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 channelId,
-                "Dhikr Reminders",
+                localizedContext.getString(R.string.notification_title),
                 NotificationManager.IMPORTANCE_HIGH
             ).apply {
-                description = "Reminders for Dhikr and Istighfar"
+                description = localizedContext.getString(R.string.notification_desc)
                 enableLights(true)
                 enableVibration(true)
             }
             notificationManager.createNotificationChannel(channel)
         }
 
-        val intent = Intent(context, MainActivity::class.java).apply {
+        val tapIntent = Intent(localizedContext, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         }
         val pendingIntent = PendingIntent.getActivity(
-            context, 0, intent, PendingIntent.FLAG_IMMUTABLE
+            localizedContext, 0, tapIntent, PendingIntent.FLAG_IMMUTABLE
         )
 
-        // Randomize Message
+        // Randomly pick one of the three dhikr messages
         val messages = listOf(
-            "اذكر الله",
-            "استغفر الله",
-            "صلي على رسول الله"
+            localizedContext.getString(R.string.notif_msg_salawat),
+            localizedContext.getString(R.string.notif_msg_dhikr),
+            localizedContext.getString(R.string.notif_msg_istighfar)
         )
         val randomMessage = messages.random()
 
-        val notification = NotificationCompat.Builder(context, channelId)
+        val notification = NotificationCompat.Builder(localizedContext, channelId)
             .setSmallIcon(R.drawable.ic_notification)
-            .setContentTitle("تذكير")
+            .setContentTitle(localizedContext.getString(R.string.notif_title))
             .setContentText(randomMessage)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(randomMessage))
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setDefaults(NotificationCompat.DEFAULT_ALL)
             .setContentIntent(pendingIntent)

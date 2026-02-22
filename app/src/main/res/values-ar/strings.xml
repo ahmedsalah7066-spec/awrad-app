@@ -95,5 +95,10 @@
     <string name="munajat_khaifin">مناجاة الخائفين</string>
     <string name="munajat_shakin">مناجاة الشاكين</string>
     <string name="munajat_taibin">مناجاة التائبين</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">تذكير بالذكر</string>
+    <string name="notif_msg_salawat">صلِّ على رسول الله ﷺ</string>
+    <string name="notif_msg_dhikr">اذكر الله</string>
+    <string name="notif_msg_istighfar">استغفر الله</string>
 
 </resources>

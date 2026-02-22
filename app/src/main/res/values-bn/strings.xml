@@ -104,4 +104,9 @@
     <string name="retry">পুনরায় চেষ্টা করুন</string>
     <string name="share_app">অ্যাপ শেয়ার করুন</string>
     <string name="share_msg">আওরাদ (Awrad) অ্যাপটি ডাউনলোড করুন: দৈনন্দিন যিকির এবং মোনাজাতের জন্য সেরা অ্যাপ</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">জিকিরের স্মরণ</string>
+    <string name="notif_msg_salawat">রাসুলুল্লাহ ﷺ এর উপর দরূদ পড়ুন</string>
+    <string name="notif_msg_dhikr">আল্লাহকে স্মরণ করুন</string>
+    <string name="notif_msg_istighfar">আল্লাহর কাছে ক্ষমা প্রার্থনা করুন</string>
 </resources>

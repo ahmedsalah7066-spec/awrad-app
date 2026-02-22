@@ -104,4 +104,9 @@
     <string name="retry">Coba Lagi</string>
     <string name="share_app">Bagikan Aplikasi</string>
     <string name="share_msg">Coba Awrad: Aplikasi Dzikir dan Munajat Harian</string>
+    <!-- Notification Messages -->
+    <string name="notif_title">Pengingat Zikir</string>
+    <string name="notif_msg_salawat">Sampaikan shalawat kepada Rasulullah ﷺ</string>
+    <string name="notif_msg_dhikr">Dzikirlah kepada Allah</string>
+    <string name="notif_msg_istighfar">Mohon ampun kepada Allah</string>
 </resources>
