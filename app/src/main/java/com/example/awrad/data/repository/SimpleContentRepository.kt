@@ -25,7 +25,7 @@ class SimpleContentRepository @Inject constructor(
 
     companion object {
         private const val TAG = "ContentRepo"
-        private val EMBEDDED_LANGUAGES = setOf("ar", "en", "ur", "tr", "ml", "uz", "id")
+        private val EMBEDDED_LANGUAGES = setOf("ar", "en", "ur", "tr", "ml", "uz", "id", "ru", "bn", "fr")
     }
 
     // JSON caches (fallback only for ar/en)

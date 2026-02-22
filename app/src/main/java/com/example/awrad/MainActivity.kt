@@ -45,9 +45,11 @@ class MainActivity : BaseActivity() {
             languageSyncManager.seedFromJson("fr", jsonDataLoader, forceUpdate = true)
             languageSyncManager.seedFromJson("bn", jsonDataLoader, forceUpdate = true)
             languageSyncManager.seedFromJson("tr", jsonDataLoader, forceUpdate = true)
+            languageSyncManager.seedFromJson("ru", jsonDataLoader, forceUpdate = true)
+            languageSyncManager.seedFromJson("ml", jsonDataLoader, forceUpdate = true)
 
             // 2. If language is NOT embedded, download from Firebase
-            val embeddedLangs = setOf("ar", "en", "ur", "tr", "ml", "uz", "id", "fr", "bn")
+            val embeddedLangs = setOf("ar", "en", "ur", "tr", "ml", "uz", "id", "fr", "bn", "ru")
             if (!embeddedLangs.contains(lang)) {
                 if (!languageSyncManager.isLanguageCached(lang)) {
                     Toast.makeText(this@MainActivity, "Downloading $lang content...", Toast.LENGTH_SHORT).show()
@@ -113,7 +115,7 @@ class MainActivity : BaseActivity() {
     }
 
     private fun showLanguageDialog() {
-        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা")
+        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский")
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.feature_multilingual))
 
@@ -128,6 +130,7 @@ class MainActivity : BaseActivity() {
                 7 -> "id"
                 8 -> "fr"
                 9 -> "bn"
+                10 -> "ru"
                 else -> "" // Default/System
             }
 
