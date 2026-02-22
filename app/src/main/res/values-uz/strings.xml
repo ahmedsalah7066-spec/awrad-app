@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Аврод</string>
+    <string name="title_main">Аврод</string>
+    <string name="wird_today_title">Бугунги Вирд</string>
+    <string name="wird_today_desc">Кундалик вирдни ўқишни бошланг</string>
+    <string name="start_reading">Ўқишни бошлаш</string>
+    <string name="munajat_title">Кундалик Муножот</string>
+    <string name="munajat_desc">Аллоҳ билан руҳий суҳбат</string>
+    <string name="dalail_title">Далоил ул-Хайрот</string>
+    <string name="awrad_title">Далоил ул-Хайрот</string>
+    <string name="dalail_desc">Пайғамбар ﷺ га саловотлар</string>
+    <string name="settings">Созламалар</string>
+    <string name="notification_interval_title">Эслатмалар частотаси</string>
+    <string name="tasbih">Ҳиснул Муслим</string>
+    <string name="font_size">Шрифт ўлчами</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Ҳиснул Муслим</string>
+    <string name="hisn_morning">Тонгги зикрлар</string>
+    <string name="hisn_evening">Кечки зикрлар</string>
+    <string name="hisn_sleep">Уйқу зикрлари</string>
+    <string name="hisn_prayer">Намоз зикрлари</string>
+    <string name="hisn_food">Таом зикрлари</string>
+    <string name="hisn_travel">Сафар зикрлари</string>
+    <string name="hisn_mosque">Масжид зикрлари</string>
+    <string name="hisn_tasbeehat">Тасбеҳлар</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Қайта созлаш</string>
+    <string name="counter_count">Саноқ: %1$d</string>
+    <string name="counter_target">Мақсад: %1$d</string>
+    <string name="istiftah_title">Истифтоҳ дуоси</string>
+    <string name="ibrahimi_title">Иброҳимия саловоти</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Зикр эслатмалари</string>
+    <string name="notification_desc">Истиғфор ва Пайғамбар ﷺ га саловот айтишни эслатиш</string>
+    <string name="enable_notifications">Эслатмаларни ёқиш</string>
+    <string name="advanced_settings">Кенгайтирилган эслатма созламалари</string>
+    <string name="about_app">Илова ҳақида</string>
+    <string name="about_desc">Илова ва унинг хусусиятлари ҳақида батафсил маълумот</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Аврод Иловаси</string>
+    <string name="app_version">Версия 2.3.2</string>
+    <string name="about_app_desc_1">Аврод - бу Имом Зайн ул-Обидин (а.с) нинг кундалик зикрлари ва муножотларини жамлаган кенг қамровли исломий илова. Кундалик ҳаётингизда Аллоҳни зикр қилиш ва дуо қилишда барқарор бўлишингизга ёрдам бериш учун мўлжалланган.</string>
+    <string name="about_app_desc_2">Илова кўзга ёқимли, содда ва фойдаланиш учун қулай дизайнга эга бўлиб, ибодат ва руҳиятга эътибор қаратишингизга ёрдам беради.</string>
+    <string name="app_features">Илова хусусиятлари</string>
+    <string name="feature_awrad">Кундалик Вирдлар</string>
+    <string name="feature_awrad_desc">Ҳафтанинг ҳар бир куни учун етти хил вирд, Пайғамбар ﷺ га саловотлар ва муборак дуоларни ўз ичига олади.</string>
+    <string name="feature_munajat">Имом Зайн ул-Обидин муножотлари</string>
+    <string name="feature_munajat_desc">Саҳифаи Сажжодиядан ўн беш муборак муножот, кундалик вирдларга боғланган ҳолда, исталган вақтда ўқиш имконияти билан.</string>
+    <string name="feature_tasbih">Электрон Тасбеҳ</string>
+    <string name="feature_tasbih_desc">Ақлли ҳисоблагич ва ҳар бир саноқ учун вибрацияли етти танланган зикрни ўз ичига олган рақамли тасбеҳ.</string>
+    <string name="feature_multilingual">Кўп тилли қўллаб-қувватлаш</string>
+    <string name="feature_multilingual_desc">Араб, Инглиз, Урду, Ҳинд, Малаялам ва Ўзбек тиллари учун тўлиқ қўллаб-қувватлаш, Вирд ва Муножотларнинг таржималари ва изоҳлари билан.</string>
+    <string name="feature_hisn">Ҳиснул Муслим</string>
+    <string name="feature_hisn_desc">Тонгги ва кечки, уйқу, намоз, таом, сафар ва масжид зикрларини ўз ичига олган кенг қамровли зикрлар тўплами.</string>
+    <string name="feature_notifications">Эслатма билдиришномалари</string>
+    <string name="feature_notifications_desc">Истиғфор ва Саловот учун эслатма оралиқларини (5 дақиқадан 3 соатгача) созлаш имконини берувчи тизим.</string>
+    <string name="footer_dua">Аллоҳ таолодан ушбу ишни Ўзининг розилиги учун қабул қилишини, мусулмонларга фойдали қилишини ва бунга ҳисса қўшганларнинг яхшиликлари мезонига қўшишини сўраймиз.</string>
+    <string name="footer_ameen">Омин, Ё Роббил Аламийн</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Шанба кунги Вирд</string>
+    <string name="dalail_sunday">Якшанба кунги Вирд</string>
+    <string name="dalail_monday">Душанба кунги Вирд</string>
+    <string name="dalail_tuesday">Сешанба кунги Вирд</string>
+    <string name="dalail_wednesday">Чоршанба кунги Вирд</string>
+    <string name="dalail_thursday">Пайшанба кунги Вирд</string>
+    <string name="dalail_friday">Жума кунги Вирд</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Зоҳидларнинг Муножоти</string>
+    <string name="munajat_raghibin_1">Рағбат қилувчиларнинг Муножоти (1)</string>
+    <string name="munajat_dhakirin">Зикр қилувчиларнинг Муножоти</string>
+    <string name="munajat_arifin">Орифларнинг Муножоти</string>
+    <string name="munajat_muftaqirin">Фақирларнинг Муножоти</string>
+    <string name="munajat_mutawassilin">Васила изловчиларнинг Муножоти</string>
+    <string name="munajat_muhibbin">Ошиқларнинг Муножоти</string>
+    <string name="munajat_muridin">Муридларнинг Муножоти</string>
+    <string name="munajat_mutiin">Итоат қилувчиларнинг Муножоти</string>
+    <string name="munajat_shakirin">Шукр қилувчиларнинг Муножоти</string>
+    <string name="munajat_rajin">Умид қилувчиларнинг Муножоти</string>
+    <string name="munajat_raghibin_2">Рағбат қилувчиларнинг Муножоти (2)</string>
+    <string name="munajat_khaifin">Қўрқувчиларнинг Муножоти</string>
+    <string name="munajat_shakin">Шикоят қилувчиларнинг Муножоти</string>
+    <string name="munajat_taibin">Тавба қилувчиларнинг Муножоти</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">Маълумотларни янгилаш</string>
+    <string name="settings_update_desc">Илова маълумотлари ва таржималарини янгилаш</string>
+    <string name="updating">Янгиланмоқда...</string>
+    <string name="update_success">Маълумотлар муваффақиятли янгиланди</string>
+    <string name="update_error">Маълумотларни янгилашда хатолик</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">Биз билан боғланиш</string>
+    <string name="error_loading">Мазмунни юклашда хатолик</string>
+    <string name="feature_settings">Созламалар</string>
+    <string name="feature_settings_desc">Илова созламаларини ўзгартириш</string>
+    <string name="retry">Қайта уриниш</string>
+    <string name="share_app">Иловани улашиш</string>
+    <string name="share_msg">Аврод иловасини кўриб чиқинг: Кундалик Зикрлар ва Муножотлар</string>
+</resources>

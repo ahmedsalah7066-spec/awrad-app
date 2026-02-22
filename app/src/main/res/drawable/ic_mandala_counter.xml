@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="120dp" android:height="120dp" android:viewportWidth="100" android:viewportHeight="100">
+    <!-- Star Base 1 -->
+    <path android:strokeWidth="1.5" android:strokeColor="@color/primaryGreen" android:pathData="M50,4 L63.5,36.5 L96,50 L63.5,63.5 L50,96 L36.5,63.5 L4,50 L36.5,36.5 Z"/>
+
+    <!-- Star Base 2 (rotated by 45 degrees) -->
+    <path android:strokeWidth="1.5" android:strokeColor="@color/primaryGreen" android:pathData="M17.5,17.5 L41.2,31 L50,4.8 L58.8,31 L82.5,17.5 L69,41.2 L95.2,50 L69,58.8 L82.5,82.5 L58.8,69 L50,95.2 L41.2,69 L17.5,82.5 L31,58.8 L4.8,50 L31,41.2 Z"/>
+
+    <!-- Inner Circle Background -->
+    <path android:fillColor="#FFFFFF" android:strokeWidth="1" android:strokeColor="@color/primaryGreen" android:pathData="M50,18 A32,32 0,1 1,49.9 18 Z"/>
+
+    <!-- Outer Decorative Dots -->
+    <path android:fillColor="@color/primaryGreen" android:pathData="M50,1 A2,2 0,1 1,50 0.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M84.5,15.5 A2,2 0,1 1,84.5 15.49Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M99,50 A2,2 0,1 1,99 49.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M84.5,84.5 A2,2 0,1 1,84.5 84.49Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M50,99 A2,2 0,1 1,50 98.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M15.5,84.5 A2,2 0,1 1,15.5 84.49Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M1,50 A2,2 0,1 1,1 49.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M15.5,15.5 A2,2 0,1 1,15.5 15.49Z"/>
+
+    <!-- Outer Decorative Dots (Mid) -->
+    <path android:fillColor="@color/primaryGreen" android:pathData="M70,8 A1.5,1.5 0,1 1,70 7.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M92,30 A1.5,1.5 0,1 1,92 29.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M92,70 A1.5,1.5 0,1 1,92 69.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M70,92 A1.5,1.5 0,1 1,70 91.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M30,92 A1.5,1.5 0,1 1,30 91.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M8,70 A1.5,1.5 0,1 1,8 69.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M8,30 A1.5,1.5 0,1 1,8 29.99Z"/>
+    <path android:fillColor="@color/primaryGreen" android:pathData="M30,8 A1.5,1.5 0,1 1,30 7.99Z"/>
+</vector>

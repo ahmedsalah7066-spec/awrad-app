@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awrad</string>
+    <string name="title_main">Awrad</string>
+    <string name="wird_today_title">Wird d\'Aujourd\'hui</string>
+    <string name="wird_today_desc">Commencez à lire votre wird quotidien</string>
+    <string name="start_reading">Commencer à Lire</string>
+    <string name="munajat_title">Munajat Quotidiens</string>
+    <string name="munajat_desc">Murmures spirituels avec Allah</string>
+    <string name="dalail_title">Dalail al-Khayrat</string>
+    <string name="awrad_title">Dalail al-Khayrat</string>
+    <string name="dalail_desc">Prières sur le Prophète ﷺ</string>
+    <string name="settings">Paramètres</string>
+    <string name="notification_interval_title">Fréquence des Rappels</string>
+    <string name="tasbih">Hisn Al-Muslim</string>
+    <string name="font_size">Taille de la Police</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Hisn Al-Muslim</string>
+    <string name="hisn_morning">Adhkar du Matin</string>
+    <string name="hisn_evening">Adhkar du Soir</string>
+    <string name="hisn_sleep">Adhkar du Sommeil</string>
+    <string name="hisn_prayer">Adhkar de la Prière</string>
+    <string name="hisn_food">Adhkar de la Nourriture</string>
+    <string name="hisn_travel">Adhkar du Voyage</string>
+    <string name="hisn_mosque">Adhkar de la Mosquée</string>
+    <string name="hisn_tasbeehat">Tasbihat</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Réinitialiser</string>
+    <string name="counter_count">Compte : %1$d</string>
+    <string name="counter_target">Objectif : %1$d</string>
+    <string name="istiftah_title">Invocation d\'Ouverture (Al-Istiftah)</string>
+    <string name="ibrahimi_title">Prière Abrahamique (Al-Ibrahimiyya)</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Notifications de Dhikr</string>
+    <string name="notification_desc">Vous rappeler de demander pardon et de prier sur le Prophète ﷺ</string>
+    <string name="enable_notifications">Activer les Notifications</string>
+    <string name="advanced_settings">Paramètres de Rappel Avancés</string>
+    <string name="about_app">À Propos de l\'Application</string>
+    <string name="about_desc">Informations détaillées sur l\'application et ses fonctionnalités</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Application Awrad</string>
+    <string name="app_version">Version 2.3.2</string>
+    <string name="about_app_desc_1">Awrad est une application islamique complète qui rassemble les Adhkar quotidiens et les Munajat de l\'Imam Zayn al-Abidin (AS). Conçue pour vous aider à maintenir une constance dans l\'évocation et l\'invocation dans votre vie quotidienne.</string>
+    <string name="about_app_desc_2">L\'application propose une interface simple et conviviale, avec un design élégant et reposant pour les yeux, vous aidant à vous concentrer sur l\'adoration et la spiritualité.</string>
+    <string name="app_features">Fonctionnalités</string>
+    <string name="feature_awrad">Awrad Quotidiens</string>
+    <string name="feature_awrad_desc">Sept wirds différents pour chaque jour de la semaine, contenant des prières sur le Prophète ﷺ et des supplications bénies, entièrement vocalisées pour une prononciation correcte.</string>
+    <string name="feature_munajat">Munajat de l\'Imam Zayn al-Abidin</string>
+    <string name="feature_munajat_desc">Quinze Munajat bénis d\'Al-Sahifa Al-Sajjadiyya, liés aux wirds quotidiens, avec la possibilité de lire n\'importe quel Munajat à tout moment.</string>
+    <string name="feature_tasbih">Tasbih Électronique</string>
+    <string name="feature_tasbih_desc">Chapelet numérique contenant sept dhikrs sélectionnés, avec un compteur intelligent et un retour de vibration à chaque compte.</string>
+    <string name="feature_multilingual">Support Multilingue</string>
+    <string name="feature_multilingual_desc">Support complet ajouté pour : Arabe, Anglais, Ourdou, Hindi, Malayalam, Français, et bien d\'autres, fournissant des explications et des traductions pour les Awrad et les Munajat.</string>
+    <string name="feature_hisn">Hisn Al-Muslim</string>
+    <string name="feature_hisn_desc">Bibliothèque complète d\'Adhkar comprenant : les invocations du matin et du soir, du sommeil, de la prière, de la nourriture, du voyage et de la mosquée.</string>
+    <string name="feature_notifications">Notifications de Rappel</string>
+    <string name="feature_notifications_desc">Système de notification avancé vous permettant de définir des intervalles de rappel (de 5 minutes à 3 heures) pour l\'Istighfar et les Salawat.</string>
+    <string name="footer_dua">Nous demandons à Allah le Très-Haut d\'accepter ce travail purement pour Son noble Visage, d\'en faire profiter les musulmans, et de le placer dans la balance des bonnes actions de tous ceux qui y ont contribué.</string>
+    <string name="footer_ameen">Amine, Ô Seigneur des mondes</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Wird du Samedi</string>
+    <string name="dalail_sunday">Wird du Dimanche</string>
+    <string name="dalail_monday">Wird du Lundi</string>
+    <string name="dalail_tuesday">Wird du Mardi</string>
+    <string name="dalail_wednesday">Wird du Mercredi</string>
+    <string name="dalail_thursday">Wird du Jeudi</string>
+    <string name="dalail_friday">Wird du Vendredi</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Munajat des Ascètes</string>
+    <string name="munajat_raghibin_1">Munajat des Désireux (1)</string>
+    <string name="munajat_dhakirin">Munajat de Ceux qui Invoquent</string>
+    <string name="munajat_arifin">Munajat des Connaissants</string>
+    <string name="munajat_muftaqirin">Munajat de Ceux qui sont dans le Besoin</string>
+    <string name="munajat_mutawassilin">Munajat de Ceux qui Cherchent Refuge</string>
+    <string name="munajat_muhibbin">Munajat des Aimants</string>
+    <string name="munajat_muridin">Munajat des Disciples</string>
+    <string name="munajat_mutiin">Munajat des Obéissants</string>
+    <string name="munajat_shakirin">Munajat des Reconnaissants</string>
+    <string name="munajat_rajin">Munajat des Pleins d\'Espoir</string>
+    <string name="munajat_raghibin_2">Munajat des Désireux (2)</string>
+    <string name="munajat_khaifin">Munajat des Craintifs</string>
+    <string name="munajat_shakin">Munajat des Plaignants</string>
+    <string name="munajat_taibin">Munajat des Repentants</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">Mettre à Jour le Contenu</string>
+    <string name="settings_update_desc">Actualiser les données et les traductions de l\'application</string>
+    <string name="updating">Mise à jour en cours...</string>
+    <string name="update_success">Données mises à jour avec succès</string>
+    <string name="update_error">Erreur lors de la mise à jour des données</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">Nous Contacter</string>
+    <string name="error_loading">Erreur de chargement du contenu</string>
+    <string name="feature_settings">Paramètres</string>
+    <string name="feature_settings_desc">Personnaliser les paramètres de l\'application</string>
+    <string name="retry">Réessayer</string>
+    <string name="share_app">Partager l\'Application</string>
+    <string name="share_msg">Découvrez Awrad : l\'application des Adhkar Quotidiens et Munajat</string>
+</resources>

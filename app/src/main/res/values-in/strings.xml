@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awrad</string>
+    <string name="title_main">Awrad</string>
+    <string name="wird_today_title">Hizb Hari Ini</string>
+    <string name="wird_today_desc">Mulai membaca hizb harian Anda</string>
+    <string name="start_reading">Mulai Membaca</string>
+    <string name="munajat_title">Munajat Harian</string>
+    <string name="munajat_desc">Bisikan spiritual dengan Allah</string>
+    <string name="dalail_title">Dalail al-Khayrat</string>
+    <string name="awrad_title">Dalail al-Khayrat</string>
+    <string name="dalail_desc">Shalawat kepada Nabi ﷺ</string>
+    <string name="settings">Pengaturan</string>
+    <string name="notification_interval_title">Frekuensi Pengingat</string>
+    <string name="tasbih">Hisnul Muslim</string>
+    <string name="font_size">Ukuran Font</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Hisnul Muslim</string>
+    <string name="hisn_morning">Dzikir Pagi</string>
+    <string name="hisn_evening">Dzikir Petang</string>
+    <string name="hisn_sleep">Dzikir Tidur</string>
+    <string name="hisn_prayer">Dzikir Sholat</string>
+    <string name="hisn_food">Dzikir Makanan</string>
+    <string name="hisn_travel">Dzikir Safar</string>
+    <string name="hisn_mosque">Dzikir Masjid</string>
+    <string name="hisn_tasbeehat">Tasbihat</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Ulang</string>
+    <string name="counter_count">Hitungan: %1$d</string>
+    <string name="counter_target">Target: %1$d</string>
+    <string name="istiftah_title">Doa Iftitah</string>
+    <string name="ibrahimi_title">Shalawat Ibrahimiyah</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Notifikasi Dzikir</string>
+    <string name="notification_desc">Ingatkan untuk beristighfar dan bershalawat kepada Nabi ﷺ</string>
+    <string name="enable_notifications">Aktifkan Notifikasi</string>
+    <string name="advanced_settings">Pengaturan Pengingat Lanjutan</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="about_desc">Informasi lengkap tentang aplikasi dan kemudahan</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Aplikasi Awrad</string>
+    <string name="app_version">Versi 2.3.2</string>
+    <string name="about_app_desc_1">Awrad adalah aplikasi Islami komprehensif yang menggabungkan Dzikir Harian dan Munajat Imam Zainal Abidin (AS). Dirancang untuk membantu Anda menjaga konsistensi dalam berdzikir dan berdoa dalam kehidupan sehari-hari.</string>
+    <string name="about_app_desc_2">Aplikasi ini menampilkan antarmuka yang sederhana dan ramah pengguna dengan desain elegan yang nyaman dipandang, membantu Anda fokus pada ibadah dan spiritualitas.</string>
+    <string name="app_features">Fitur Aplikasi</string>
+    <string name="feature_awrad">Awrad Harian</string>
+    <string name="feature_awrad_desc">Tujuh hizb berbeda untuk setiap hari dalam seminggu, berisi shalawat kepada Nabi ﷺ dan doa-doa pilihan yang berharakat penuh untuk pelafalan yang benar.</string>
+    <string name="feature_munajat">Munajat Imam Zainal Abidin</string>
+    <string name="feature_munajat_desc">Lima belas Munajat pilihan dari As-Sahifah As-Sajjadiyah, terhubung dengan hizb harian, dengan kemampuan membaca Munajat apa saja kapan saja.</string>
+    <string name="feature_tasbih">Tasbih Elektronik</string>
+    <string name="feature_tasbih_desc">Tasbih digital berisi tujuh dzikir pilihan dengan penghitung cerdas dan respon getaran pada setiap hitungan.</string>
+    <string name="feature_multilingual">Dukungan Multi-bahasa</string>
+    <string name="feature_multilingual_desc">Dukungan penuh ditambahkan untuk: Arab, Inggris, Urdu, Hindi, Malayalam, dan Indonesia, menyediakan penjelasan dan terjemahan untuk Awrad dan Munajat.</string>
+    <string name="feature_hisn">Hisnul Muslim</string>
+    <string name="feature_hisn_desc">Perpustakaan lengkap Dzikir termasuk: Dzikir Pagi &amp; Petang, Tidur, Sholat, Makanan, Perjalanan, dan Dzikir Masjid.</string>
+    <string name="feature_notifications">Notifikasi Pengingat</string>
+    <string name="feature_notifications_desc">Sistem notifikasi canggih yang memungkinkan Anda mengatur interval pengingat (dari 5 menit hingga 3 jam) untuk Istighfar dan Shalawat.</string>
+    <string name="footer_dua">Kami memohon kepada Allah Yang Maha Kuasa untuk menerima karya ini murni demi mengharap ridha-Nya yang mulia, agar bermanfaat bagi kaum Muslimin, dan menjadikannya dalam timbangan amal baik setiap orang yang berkontribusi di dalamnya.</string>
+    <string name="footer_ameen">Aamiin, Ya Rabbal \'Alamin</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Hizb Hari Sabtu</string>
+    <string name="dalail_sunday">Hizb Hari Ahad</string>
+    <string name="dalail_monday">Hizb Hari Senin</string>
+    <string name="dalail_tuesday">Hizb Hari Selasa</string>
+    <string name="dalail_wednesday">Hizb Hari Rabu</string>
+    <string name="dalail_thursday">Hizb Hari Kamis</string>
+    <string name="dalail_friday">Hizb Hari Jumat</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Munajat Orang-orang Zuhud</string>
+    <string name="munajat_raghibin_1">Munajat Orang-orang yang Berharap (1)</string>
+    <string name="munajat_dhakirin">Munajat Ahli Dzikir</string>
+    <string name="munajat_arifin">Munajat Orang-orang Makrifat</string>
+    <string name="munajat_muftaqirin">Munajat Orang-orang Fakir</string>
+    <string name="munajat_mutawassilin">Munajat Orang-orang yang Bertawassul</string>
+    <string name="munajat_muhibbin">Munajat Para Pecinta</string>
+    <string name="munajat_muridin">Munajat Para Murid</string>
+    <string name="munajat_mutiin">Munajat Orang-orang yang Taat</string>
+    <string name="munajat_shakirin">Munajat Para Penyukur</string>
+    <string name="munajat_rajin">Munajat Orang-orang yang Berharap</string>
+    <string name="munajat_raghibin_2">Munajat Orang-orang yang Berharap (2)</string>
+    <string name="munajat_khaifin">Munajat Orang-orang yang Takut</string>
+    <string name="munajat_shakin">Munajat Orang-orang yang Mengadu</string>
+    <string name="munajat_taibin">Munajat Orang-orang yang Bertobat</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">Perbarui Konten</string>
+    <string name="settings_update_desc">Segarkan data aplikasi dan terjemahan</string>
+    <string name="updating">Memperbarui...</string>
+    <string name="update_success">Data berhasil diperbarui</string>
+    <string name="update_error">Gagal memperbarui data</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="error_loading">Gagal memuat konten</string>
+    <string name="feature_settings">Pengaturan</string>
+    <string name="feature_settings_desc">Sesuaikan pengaturan aplikasi</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="share_app">Bagikan Aplikasi</string>
+    <string name="share_msg">Coba Awrad: Aplikasi Dzikir dan Munajat Harian</string>
+</resources>

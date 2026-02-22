@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awrad</string>
+    <string name="title_main">Awrad</string>
+    <string name="wird_today_title">Today\'s Wird</string>
+    <string name="wird_today_desc">Start reading your daily wird</string>
+    <string name="start_reading">Start Reading</string>
+    <string name="munajat_title">Daily Munajat</string>
+    <string name="munajat_desc">Spiritual whispers with Allah</string>
+    <string name="dalail_title">Dalail al-Khayrat</string>
+    <string name="awrad_title">Dalail al-Khayrat</string>
+    <string name="dalail_desc">Prayers upon the Prophet ﷺ</string>
+    <string name="settings">Settings</string>
+    <string name="notification_interval_title">Reminder Frequency</string>
+    <string name="tasbih">Hisn Al-Muslim</string>
+    <string name="font_size">Font Size</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Hisn Al-Muslim</string>
+    <string name="hisn_morning">Morning Adhkar</string>
+    <string name="hisn_evening">Evening Adhkar</string>
+    <string name="hisn_sleep">Sleep Adhkar</string>
+    <string name="hisn_prayer">Prayer Adhkar</string>
+    <string name="hisn_food">Food Adhkar</string>
+    <string name="hisn_travel">Travel Adhkar</string>
+    <string name="hisn_mosque">Mosque Adhkar</string>
+    <string name="hisn_tasbeehat">Tasbihat</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Reset</string>
+    <string name="counter_count">Count: %1$d</string>
+    <string name="counter_target">Target: %1$d</string>
+    <string name="istiftah_title">Dua Al-Istiftah</string>
+    <string name="ibrahimi_title">Salawat Ibrahimiyya</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Dhikr Notifications</string>
+    <string name="notification_desc">Remind you to seek forgiveness and pray upon the Prophet ﷺ</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="advanced_settings">Advanced Reminder Settings</string>
+    <string name="about_app">About App</string>
+    <string name="about_desc">Detailed information about the app and features</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Awrad App</string>
+    <string name="app_version">Version 2.3.2</string>
+    <string name="about_app_desc_1">Awrad is a comprehensive Islamic app combining Daily Adhkar and Munajat of Imam Zain al-Abidin (AS). Designed to help you maintain consistent remembrance and supplication in your daily life.</string>
+    <string name="about_app_desc_2">The app features a simple, user-friendly interface with an elegant design that is easy on the eyes, helping you focus on worship and spirituality.</string>
+    <string name="app_features">App Features</string>
+    <string name="feature_awrad">Daily Awrad</string>
+    <string name="feature_awrad_desc">Seven different wirds for each day of the week, containing prayers upon the Prophet ﷺ and blessed supplications fully voweled for correct pronunciation.</string>
+    <string name="feature_munajat">Munajat of Imam Zain al-Abidin</string>
+    <string name="feature_munajat_desc">Fifteen blessed Munajat from Al-Sahifa Al-Sajjadiyya, linked to daily wirds, with the ability to read any Munajat at any time.</string>
+    <string name="feature_tasbih">Electronic Tasbih</string>
+    <string name="feature_tasbih_desc">Digital tasbih containing seven selected dhikrs with a smart counter and vibration feedback on each count.</string>
+    <string name="feature_multilingual">Multi-language Support</string>
+    <string name="feature_multilingual_desc">Full support added for: Arabic, English, Urdu, Hindi, and Malayalam, providing explanations and translations for Awrad and Munajat.</string>
+    <string name="feature_hisn">Hisn Al-Muslim</string>
+    <string name="feature_hisn_desc">Comprehensive library of Adhkar including: Morning &amp; Evening, Sleep, Prayer, Food, Travel, and Mosque Adhkar.</string>
+    <string name="feature_notifications">Reminder Notifications</string>
+    <string name="feature_notifications_desc">Advanced notification system allowing you to set reminder intervals (from 5 minutes to 3 hours) for Istighfar and Salawat.</string>
+    <string name="footer_dua">We ask Allah the Almighty to accept this work purely for His noble sake, to benefit Muslims with it, and to place it in the scale of good deeds of everyone who contributed to it.</string>
+    <string name="footer_ameen">Ameen, O Lord of the Worlds</string>
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Saturday Wird</string>
+    <string name="dalail_sunday">Sunday Wird</string>
+    <string name="dalail_monday">Monday Wird</string>
+    <string name="dalail_tuesday">Tuesday Wird</string>
+    <string name="dalail_wednesday">Wednesday Wird</string>
+    <string name="dalail_thursday">Thursday Wird</string>
+    <string name="dalail_friday">Friday Wird</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Munajat of the Ascetics</string>
+    <string name="munajat_raghibin_1">Munajat of the Desirers (1)</string>
+    <string name="munajat_dhakirin">Munajat of the Rememberers</string>
+    <string name="munajat_arifin">Munajat of the Knowers</string>
+    <string name="munajat_muftaqirin">Munajat of the Needful</string>
+    <string name="munajat_mutawassilin">Munajat of the Devotees</string>
+    <string name="munajat_muhibbin">Munajat of the Lovers</string>
+    <string name="munajat_muridin">Munajat of the Disciples</string>
+    <string name="munajat_mutiin">Munajat of the Obedient</string>
+    <string name="munajat_shakirin">Munajat of the Thankful</string>
+    <string name="munajat_rajin">Munajat of the Hopeful</string>
+    <string name="munajat_raghibin_2">Munajat of the Desirers (2)</string>
+    <string name="munajat_khaifin">Munajat of the Fearful</string>
+    <string name="munajat_shakin">Munajat of the Complainers</string>
+    <string name="munajat_taibin">Munajat of the Repenters</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">Update Content</string>
+    <string name="settings_update_desc">Refresh app data and translations</string>
+    <string name="updating">Updating...</string>
+    <string name="update_success">Data updated successfully</string>
+    <string name="update_error">Error updating data</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="error_loading">Error loading content</string>
+    <string name="feature_settings">Settings</string>
+    <string name="feature_settings_desc">Customize app settings</string>
+    <string name="retry">Retry</string>
+    <string name="share_app">Share App</string>
+    <string name="share_msg">Check out Awrad: Daily Adhkar and Munajat app</string>
+</resources>

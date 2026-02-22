@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Evrad</string>
+    <string name="title_main">Evrad</string>
+    <string name="wird_today_title">Günün Virdi</string>
+    <string name="wird_today_desc">Günlük virdinizi okumaya başlayın</string>
+    <string name="start_reading">Okumaya Başla</string>
+    <string name="munajat_title">Günlük Münacaat</string>
+    <string name="munajat_desc">Allah ile manevi fısıltılar</string>
+    <string name="dalail_title">Delâilü\'l Hayrat</string>
+    <string name="awrad_title">Delâilü\'l Hayrat</string>
+    <string name="dalail_desc">Peygamber Efendimiz (s.a.v) üzerine salavatlar</string>
+    <string name="settings">Ayarlar</string>
+    <string name="notification_interval_title">Hatırlatma Sıklığı</string>
+    <string name="tasbih">Hısnü\'l Müslim</string>
+    <string name="font_size">Yazı Boyutu</string>
+
+    <string name="istiftah_title">İstiftah Duası (Başlangıç)</string>
+    <string name="ibrahimi_title">Salli Barik Duaları</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Hısnü\'l Müslim</string>
+    <string name="hisn_morning">Sabah Zikirleri</string>
+    <string name="hisn_evening">Akşam Zikirleri</string>
+    <string name="hisn_sleep">Uyku Zikirleri</string>
+    <string name="hisn_prayer">Namaz Zikirleri</string>
+    <string name="hisn_food">Yemek Zikirleri</string>
+    <string name="hisn_travel">Yolculuk Zikirleri</string>
+    <string name="hisn_mosque">Cami Zikirleri</string>
+    <string name="hisn_tasbeehat">Tesbihatlar</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Sıfırla</string>
+    <string name="counter_count">Sayı: %d</string>
+    <string name="counter_target">Hedef: %d</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Zikir Bildirimleri</string>
+    <string name="notification_desc">İstiğfar ve Salavat için hatırlatmalar</string>
+    <string name="enable_notifications">Bildirimleri Aç</string>
+    <string name="advanced_settings">Gelişmiş Hatırlatma Ayarları</string>
+    <string name="about_app">Uygulama Hakkında</string>
+    <string name="about_desc">Uygulama ve özellikler hakkında detaylı bilgi</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Evrad Uygulaması</string>
+    <string name="app_version">Sürüm 2.3.2</string>
+    <string name="about_app_desc_1">Evrad, Günlük Zikirleri ve İmam Zeynel Abidin\'in (ra) Münacaatlarını birleştiren kapsamlı bir İslami uygulamadır. Günlük hayatınızda zikir ve duaya devam etmenize yardımcı olmak için tasarlanmıştır.</string>
+    <string name="about_app_desc_2">Uygulama, ibadet ve maneviyata odaklanmanıza yardımcı olan, gözü yormayan şık bir tasarıma ve basit, kullanıcı dostu bir arayüze sahiptir.</string>
+    <string name="app_features">Uygulama Özellikleri</string>
+    <string name="feature_awrad">Günlük Evrad</string>
+    <string name="feature_awrad_desc">Haftanın her günü için yedi farklı vird; Peygamber Efendimiz (s.a.v) üzerine salavatlar ve doğru telaffuz için tamamen harekeli mübarek dualar içerir.</string>
+    <string name="feature_munajat">İmam Zeynel Abidin Münacaatları</string>
+    <string name="feature_munajat_desc">Sahife-i Seccadiye\'den on beş mübarek münacaat, günlük virdlerle bağlantılı olup, herhangi bir zamanda okunabilir.</string>
+    <string name="feature_hisn">Hısnü\'l Müslim</string>
+    <string name="feature_hisn_desc">Sabah ve Akşam, Uyku, Namaz, Yemek, Yolculuk ve Cami zikirleri dahil olmak üzere kapsamlı zikir kütüphanesi.</string>
+    <string name="feature_notifications">Akıllı Bildirimler</string>
+    <string name="feature_notifications_desc">Belirli zamanlarda sizi zikre ve Salavat\'a teşvik eden, sıklığı ve tonu özelleştirilebilir esnek bildirim sistemi.</string>
+    <string name="feature_settings">Tam Özelleştirme</string>
+    <string name="feature_settings_desc">Yazı boyutu, gece modu (otomatik/manuel) ve uygulama dili üzerinde tam kontrol.</string>
+    <string name="contact_us">Bize Ulaşın</string>
+    <string name="contact_email">support@awradapp.com</string>
+    <string name="share_app">Uygulamayı Paylaş</string>
+    <string name="share_msg">Zikir ve Münacaat için Evrad uygulamasını deneyin: [Uygulama Linki]</string>
+
+    <!-- Errors -->
+    <string name="error_loading">Veri yüklenirken hata oluştu</string>
+    <string name="retry">Tekrar Dene</string>
+
+    <string name="footer_dua">Yüce Allah\'tan bu çalışmayı sadece O\'nun rızası için kabul etmesini, Müslümanlara faydalı kılmasını ve katkıda bulunan herkesin sevap hanesine yazmasını niyaz ederiz.</string>
+    <string name="footer_ameen">Amin, Ey Alemlerin Rabbi</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Cumartesi Virdi</string>
+    <string name="dalail_sunday">Pazar Virdi</string>
+    <string name="dalail_monday">Pazartesi Virdi</string>
+    <string name="dalail_tuesday">Salı Virdi</string>
+    <string name="dalail_wednesday">Çarşamba Virdi</string>
+    <string name="dalail_thursday">Perşembe Virdi</string>
+    <string name="dalail_friday">Cuma Virdi</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Zâhidlerin Münacaatı</string>
+    <string name="munajat_raghibin_1">Rağbet Edenlerin Münacaatı (1)</string>
+    <string name="munajat_dhakirin">Zikredenlerin Münacaatı</string>
+    <string name="munajat_arifin">Ariflerin Münacaatı</string>
+    <string name="munajat_muftaqirin">Muhtaçların Münacaatı</string>
+    <string name="munajat_mutawassilin">Tevessül Edenlerin Münacaatı</string>
+    <string name="munajat_muhibbin">Sevenlerin Münacaatı</string>
+    <string name="munajat_muridin">Müridlerin Münacaatı</string>
+    <string name="munajat_mutiin">İtaat Edenlerin Münacaatı</string>
+    <string name="munajat_shakirin">Şükredenlerin Münacaatı</string>
+    <string name="munajat_rajin">Umut Edenlerin Münacaatı</string>
+    <string name="munajat_raghibin_2">Rağbet Edenlerin Münacaatı (2)</string>
+    <string name="munajat_khaifin">Korkanların Münacaatı</string>
+    <string name="munajat_shakin">Şikayet Edenlerin Münacaatı</string>
+    <string name="munajat_taibin">Tövbe Edenlerin Münacaatı</string>
+
+
+    <!-- Data Update -->
+    <string name="settings_update_content">İçeriği Güncelle</string>
+    <string name="settings_update_desc">Uygulama verilerini ve çevirileri yenile</string>
+    <string name="updating">Güncelleniyor...</string>
+    <string name="update_success">Veri başarıyla güncellendi</string>
+    <string name="update_error">Veri güncellenirken hata oluştu</string>
+</resources>

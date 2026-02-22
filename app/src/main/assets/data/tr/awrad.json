@@ -1,0 +1,58 @@
+[
+    {
+        "id": "saturday",
+        "day": "saturday",
+        "title": "Cumartesi Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Cumartesi günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared. The Dalail al-Khayrat wird for Saturday will be added soon.",
+        "type": "dua"
+    },
+    {
+        "id": "sunday",
+        "day": "sunday",
+        "title": "Pazar Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Pazar günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    },
+    {
+        "id": "monday",
+        "day": "monday",
+        "title": "Pazartesi Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Pazartesi günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    },
+    {
+        "id": "tuesday",
+        "day": "tuesday",
+        "title": "Salı Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Salı günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    },
+    {
+        "id": "wednesday",
+        "day": "wednesday",
+        "title": "Çarşamba Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Çarşamba günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    },
+    {
+        "id": "thursday",
+        "day": "thursday",
+        "title": "Perşembe Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Perşembe günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    },
+    {
+        "id": "friday",
+        "day": "friday",
+        "title": "Cuma Virdi",
+        "content": "Bu içerik şu anda hazırlanmaktadır. Cuma günü için Delâilü'l Hayrat virdi yakında eklenecektir.",
+        "translation": "This content is currently being prepared.",
+        "type": "dua"
+    }
+]

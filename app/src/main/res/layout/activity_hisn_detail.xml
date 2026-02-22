@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF" tools:context=".HisnDetailActivity">
+
+    <!-- Header -->
+    <include android:id="@+id/header" layout="@layout/layout_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+
+    <!-- ViewPager for Content -->
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/header" android:layout_above="@+id/bottomCounterArea" />
+
+    <!-- Bottom Counter Area -->
+    <LinearLayout android:id="@+id/bottomCounterArea" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:gravity="center" android:orientation="vertical" android:paddingBottom="48dp" android:paddingTop="8dp" android:background="#00FFFFFF">
+
+        <!-- Counter -->
+        <TextView android:id="@+id/tvLargeCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="0 / 1" android:textColor="#333333" android:textSize="36sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tvTargetCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" />
+
+        <!-- Page Indicator -->
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal" android:layout_marginBottom="16dp">
+
+            <ImageView android:id="@+id/btnPrev" android:layout_width="40dp" android:layout_height="40dp" android:padding="8dp" android:src="@drawable/ic_arrow_back" app:tint="#CCCCCC" />
+
+            <TextView android:id="@+id/tvPageIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="24dp" android:text="1 / 24" android:textColor="#999999" android:textSize="16sp" />
+
+            <ImageView android:id="@+id/btnNext" android:layout_width="40dp" android:layout_height="40dp" android:padding="8dp" android:rotation="180" android:src="@drawable/ic_arrow_back" app:tint="#CCCCCC" />
+        </LinearLayout>
+
+        <!-- Bottom Controls (Font & Reset) -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:orientation="horizontal" android:paddingHorizontal="32dp">
+
+            <TextView android:id="@+id/btnDecreaseFont" android:layout_width="48dp" android:layout_height="48dp" android:gravity="center" android:text="A-" android:textColor="#333333" android:textSize="20sp" android:textStyle="bold" />
+
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+
+            <ImageView android:id="@+id/btnReset" android:layout_width="48dp" android:layout_height="48dp" android:padding="10dp" android:src="@drawable/ic_refresh" app:tint="@color/primaryGreen" android:visibility="invisible" />
+
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+
+            <TextView android:id="@+id/btnIncreaseFont" android:layout_width="48dp" android:layout_height="48dp" android:gravity="center" android:text="A+" android:textColor="#333333" android:textSize="20sp" android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اوراد</string>
+    <string name="title_main">اوراد</string>
+    <string name="wird_today_title">آج کا ورد</string>
+    <string name="wird_today_desc">اپنا روزانہ ورد شروع کریں</string>
+    <string name="start_reading">پڑھنا شروع کریں</string>
+    <string name="munajat_title">مناجات</string>
+    <string name="munajat_desc">اللہ کے ساتھ روحانی سرگوشیاں</string>
+    <string name="dalail_title">دلائل الخیرات</string>
+    <string name="awrad_title">دلائل الخیرات</string>
+    <string name="dalail_desc">نبی ﷺ پر درود و سلام</string>
+    <string name="settings">ترتیبات</string>
+    <string name="notification_interval_title">یاد دہانی کی تعداد</string>
+    <string name="tasbih">حصن المسلم</string>
+    <string name="font_size">فونٹ کا سائز</string>
+
+    <string name="istiftah_title">دعائے استفتاح</string>
+    <string name="ibrahimi_title">درود ابراہیمی</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">حصن المسلم</string>
+    <string name="hisn_morning">صبح کے اذکار</string>
+    <string name="hisn_evening">شام کے اذکار</string>
+    <string name="hisn_sleep">سونے کے اذکار</string>
+    <string name="hisn_prayer">نماز کے اذکار</string>
+    <string name="hisn_food">کھانے کے اذکار</string>
+    <string name="hisn_travel">سفر کے اذکار</string>
+    <string name="hisn_mosque">مسجد کے اذکار</string>
+    <string name="hisn_tasbeehat">تسبیحات</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">دوبارہ ترتیب دیں</string>
+    <string name="counter_count">تعداد: %d</string>
+    <string name="counter_target">ہدف: %d</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">ذکر کی اطلاعات</string>
+    <string name="notification_desc">استغفار اور نبی ﷺ پر درود کی یاد دہانی</string>
+    <string name="enable_notifications">اطلاعات فعال کریں</string>
+    <string name="advanced_settings">یاد دہانی کی اعلیٰ ترتیبات</string>
+    <string name="about_app">ایپ کے بارے میں</string>
+    <string name="about_desc">ایپ اور خصوصیات کی تفصیلی معلومات</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">اوراد ایپ</string>
+    <string name="app_version">ورژن 2.3.2</string>
+    <string name="about_app_desc_1">اوراد ایک جامع اسلامی ایپ ہے جو روزانہ اذکار اور امام زین العابدین (علیہ السلام) کی مناجات کو یکجا کرتی ہے۔ یہ آپ کی روزمرہ زندگی میں مسلسل ذکر اور دعا کو برقرار رکھنے میں مدد کے لیے ڈیزائن کی گئی ہے۔</string>
+    <string name="about_app_desc_2">ایپ ایک سادہ، صارف دوست انٹرفیس کے ساتھ پیش کی گئی ہے جس کا خوبصورت ڈیزائن آنکھوں پر آرام دہ ہے، جو آپ کو عبادت اور روحانیت پر توجہ مرکوز کرنے میں مدد کرتا ہے۔</string>
+    <string name="app_features">ایپ کی خصوصیات</string>
+    <string name="feature_awrad">روزانہ اوراد</string>
+    <string name="feature_awrad_desc">ہفتے کے ہر دن کے لیے سات مختلف اوراد، جن میں نبی ﷺ پر درود اور مبارک دعائیں شامل ہیں، درست تلفظ کے لیے مکمل اعراب کے ساتھ۔</string>
+    <string name="feature_munajat">امام زین العابدین کی مناجات</string>
+    <string name="feature_munajat_desc">الصحیفہ السجادیہ سے پندرہ مبارک مناجاتیں، روزانہ اوراد سے منسلک، کسی بھی وقت کسی بھی مناجات کو پڑھنے کی صلاحیت کے ساتھ۔</string>
+    <string name="feature_tasbih">الیکٹرانک تسبیح</string>
+    <string name="feature_tasbih_desc">ڈیجیٹل تسبیح جس میں سات منتخب اذکار شامل ہیں، ہوشیار شمارندہ اور ہر شمار پر کمپن کے ساتھ۔</string>
+    <string name="feature_multilingual">کثیر لسانی معاونت</string>
+    <string name="feature_multilingual_desc">مکمل معاونت شامل کی گئی ہے: عربی، انگریزی، اردو، ہندی، اور ملیالم کے لیے، اوراد اور مناجاتوں کی تشریحات اور ترجمے فراہم کرتے ہوئے۔</string>
+    <string name="feature_hisn">حصن المسلم</string>
+    <string name="feature_hisn_desc">اذکار کی جامع لائبریری جس میں شامل ہیں: صبح و شام، نیند، نماز، کھانا، سفر، اور مسجد کے اذکار۔</string>
+    <string name="feature_notifications">یاد دہانی کی اطلاعات</string>
+    <string name="feature_notifications_desc">اعلیٰ اطلاع نظام جو آپ کو استغفار اور درود کے لیے یاد دہانی کے وقفے (5 منٹ سے 3 گھنٹے تک) مقرر کرنے کی اجازت دیتا ہے۔</string>
+    <string name="footer_dua">ہم اللہ تعالیٰ سے دعا کرتے ہیں کہ وہ اس کام کو خالص اپنی رضا کے لیے قبول فرمائے، اس سے مسلمانوں کو فائدہ پہنچائے، اور اسے ہر اس شخص کے نیک اعمال کے پلڑے میں رکھے جس نے اس میں حصہ لیا۔</string>
+    <string name="footer_ameen">آمین، یا رب العالمین</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">ہفتہ کا ورد</string>
+    <string name="dalail_sunday">اتوار کا ورد</string>
+    <string name="dalail_monday">پیر کا ورد</string>
+    <string name="dalail_tuesday">منگل کا ورد</string>
+    <string name="dalail_wednesday">بدھ کا ورد</string>
+    <string name="dalail_thursday">جمعرات کا ورد</string>
+    <string name="dalail_friday">جمعہ کا ورد</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">زاہدین کی مناجات</string>
+    <string name="munajat_raghibin_1">راغبین کی مناجات (1)</string>
+    <string name="munajat_dhakirin">ذاکرین کی مناجات</string>
+    <string name="munajat_arifin">عارفین کی مناجات</string>
+    <string name="munajat_muftaqirin">مفتقرین کی مناجات</string>
+    <string name="munajat_mutawassilin">متوسلین کی مناجات</string>
+    <string name="munajat_muhibbin">محبین کی مناجات</string>
+    <string name="munajat_muridin">مریدین کی مناجات</string>
+    <string name="munajat_mutiin">مطیعین کی مناجات</string>
+    <string name="munajat_shakirin">شاکرین کی مناجات</string>
+    <string name="munajat_rajin">راجین کی مناجات</string>
+    <string name="munajat_raghibin_2">راغبین کی مناجات (2)</string>
+    <string name="munajat_khaifin">خائفین کی مناجات</string>
+    <string name="munajat_shakin">شاکین کی مناجات</string>
+    <string name="munajat_taibin">تائبین کی مناجات</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">مواد کی تازہ کاری</string>
+    <string name="settings_update_desc">ایپ ڈیٹا اور ترجموں کو تازہ کریں</string>
+    <string name="updating">تازہ ہو رہا ہے...</string>
+    <string name="update_success">ڈیٹا کامیابی سے تازہ ہو گیا</string>
+    <string name="update_error">ڈیٹا کی تازہ کاری میں خرابی</string>
+</resources>

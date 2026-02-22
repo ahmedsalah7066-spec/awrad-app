@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">আওরাদ (Awrad)</string>
+    <string name="title_main">আওরাদ (Awrad)</string>
+    <string name="wird_today_title">আজকের উইরদ</string>
+    <string name="wird_today_desc">আপনার দৈনন্দিন উইরদ পড়া শুরু করুন</string>
+    <string name="start_reading">পড়া শুরু করুন</string>
+    <string name="munajat_title">দৈনন্দিন মোনাজাত</string>
+    <string name="munajat_desc">আল্লাহর সাথে আধ্যাত্মিক কথোপকথন</string>
+    <string name="dalail_title">দালায়িলুল খায়রাত</string>
+    <string name="awrad_title">দালায়িলুল খায়রাত</string>
+    <string name="dalail_desc">নবীর (সাঃ) প্রতি দরূদ ও সালাম</string>
+    <string name="settings">সেটিংস</string>
+    <string name="notification_interval_title">রিমাইন্ডার ফ্রিকোয়েন্সি</string>
+    <string name="tasbih">হিসনুল মুসলিম</string>
+    <string name="font_size">ফন্টের আকার</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">হিসনুল মুসলিম</string>
+    <string name="hisn_morning">সকালের যিকির</string>
+    <string name="hisn_evening">সন্ধ্যার যিকির</string>
+    <string name="hisn_sleep">ঘুমের যিকির</string>
+    <string name="hisn_prayer">নামাজের যিকির</string>
+    <string name="hisn_food">খাবারের যিকির</string>
+    <string name="hisn_travel">ভ্রমণের যিকির</string>
+    <string name="hisn_mosque">মসজিদের যিকির</string>
+    <string name="hisn_tasbeehat">তাসবীহাত</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">রিসেট করুন</string>
+    <string name="counter_count">গণনা: %1$d</string>
+    <string name="counter_target">লক্ষ্য: %1$d</string>
+    <string name="istiftah_title">সানা (আল-ইসতিফতাহ)</string>
+    <string name="ibrahimi_title">দরূদে ইবরাহিমী</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">যিকিরের রিমাইন্ডার</string>
+    <string name="notification_desc">নবীর (সাঃ) প্রতি দরূদ ও ইস্তেগফারের রিমাইন্ডার</string>
+    <string name="enable_notifications">রিমাইন্ডার চালু করুন</string>
+    <string name="advanced_settings">উন্নত রিমাইন্ডার সেটিংস</string>
+    <string name="about_app">অ্যাপ সম্পর্কে</string>
+    <string name="about_desc">অ্যাপ এবং এর বৈশিষ্ট্য সম্পর্কিত বিস্তারিত তথ্য</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">আওরাদ অ্যাপ্লিকেশন</string>
+    <string name="app_version">সংস্করণ 2.3.2</string>
+    <string name="about_app_desc_1">আওরাদ (Awrad) একটি পূর্ণাঙ্গ ইসলামিক অ্যাপ যা দৈনিক যিকির এবং ইমাম জয়নুল আবিদীন (আঃ) এর মোনাজাত সংগ্রহ করে। এটি আপনার দৈনন্দিন জীবনে আধ্যাত্মিকতা বজায় রাখতে সহায়তা করে।</string>
+    <string name="about_app_desc_2">অ্যাপটি একটি সহজ এবং শান্ত নকশা অফার করে যা চোখের জন্য আরামদায়ক, এবং আপনাকে পুরোপুরি ইবাদতে মনোযোগ দিতে সহায়তা করে।</string>
+    <string name="app_features">বৈশিষ্ট্যসমূহ</string>
+    <string name="feature_awrad">দৈনিক আওরাদ</string>
+    <string name="feature_awrad_desc">সপ্তাহের প্রতি দিনের জন্য নির্দিষ্ট সাতটি ভিন্ন উইরদ, যাতে রয়েছে সঠিক উচ্চারণ সহকারে নবী (সাঃ) এর প্রতি দরূদ এবং বরকতময় দোয়া।</string>
+    <string name="feature_munajat">ইমাম জয়নুল আবিদীনের মোনাজাত</string>
+    <string name="feature_munajat_desc">সহিফা সাজ্জাদিয়া থেকে পনেরোটি বরকতময় মোনাজাত যা দৈনিক উইরদের সাথে যুক্ত, চাইলে যেকোনো সময় পড়ার সুবিধা রয়েছে।</string>
+    <string name="feature_tasbih">ইলেকট্রনিক তাসবীহ</string>
+    <string name="feature_tasbih_desc">স্মার্ট কাউন্টার এবং প্রতি গণনায় ভাইব্রেশন ফিডব্যাকসহ ডিজিটাল তাসবীহ।</string>
+    <string name="feature_multilingual">বহুভাষিক সমর্থন</string>
+    <string name="feature_multilingual_desc">আরবি, ইংরেজি, উর্দু, হিন্দি, মালায়ালম, ফরাসি, বাংলা এবং আরও অনেক ভাষার জন্য সম্পূর্ণ সমর্থন রয়েছে।</string>
+    <string name="feature_hisn">হিসনুল মুসলিম</string>
+    <string name="feature_hisn_desc">সকাল ও সন্ধ্যার, ঘুম, নামাজ, খাবার, ভ্রমণ এবং মসজিদের যিকিরের সম্পূর্ণ লাইব্রেরি।</string>
+    <string name="feature_notifications">রিমাইন্ডার নোটিফিকেশন</string>
+    <string name="feature_notifications_desc">একটি উন্নত நோটিفیکیشن সিস্টেম যা আপনাকে ইস্তেগফার এবং দরূদের জন্য ৫ মিনিট থেকে ৩ ঘণ্টা পর্যন্ত সময় নির্ধারণ করতে দেয়।</string>
+    <string name="footer_dua">আমরা মহান আল্লাহর কাছে প্রার্থনা করি তিনি যেন এই কাজটিকে কেবল তাঁর সন্তুষ্টির জন্য কবুল করেন, মুসলমানদের উপকৃত করেন এবং যারা এটিতে অবদান রেখেছেন তাদের নেক আমলের পাল্লায় যুক্ত করেন।</string>
+    <string name="footer_ameen">আমিন, ইয়া রাব্বুল আলামিন</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">শনিবারের উইরদ</string>
+    <string name="dalail_sunday">রবিবারের উইরদ</string>
+    <string name="dalail_monday">সোমবারের উইরদ</string>
+    <string name="dalail_tuesday">মঙ্গলবারের উইরদ</string>
+    <string name="dalail_wednesday">বুধবারের উইরদ</string>
+    <string name="dalail_thursday">বৃহস্পতিবারের উইরদ</string>
+    <string name="dalail_friday">শুক্রবারের উইরদ</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">সন্ন্যাসীদের মোনাজাত</string>
+    <string name="munajat_raghibin_1">আকাঙ্ক্ষীদের মোনাজাত (১)</string>
+    <string name="munajat_dhakirin">যিকিরকারীদের মোনাজাত</string>
+    <string name="munajat_arifin">জ্ঞানীদের (আরেফিন) মোনাজাত</string>
+    <string name="munajat_muftaqirin">প্রয়োজনীদের মোনাজাত</string>
+    <string name="munajat_mutawassilin">যে ব্যক্তিরা আশ্রয় খোঁজে তাদের মোনাজাত</string>
+    <string name="munajat_muhibbin">প্রেমিকদের মোনাজাত</string>
+    <string name="munajat_muridin">অনুসারীদের মোনাজাত</string>
+    <string name="munajat_mutiin">অনুগতদের মোনাজাত</string>
+    <string name="munajat_shakirin">কৃতজ্ঞদের মোনাজাত</string>
+    <string name="munajat_rajin">আশাবাদীদের মোনাজাত</string>
+    <string name="munajat_raghibin_2">আকাঙ্ক্ষীদের মোনাজাত (২)</string>
+    <string name="munajat_khaifin">ভীতদের মোনাজাত</string>
+    <string name="munajat_shakin">অভিযোগকারীদের মোনাজাত</string>
+    <string name="munajat_taibin">তওবাকারীদের মোনাজাত</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">আপডেট সামগ্রী</string>
+    <string name="settings_update_desc">অ্যাপ্লিকেশন ডেটা এবং অনুবাদ রিফ্রেশ করুন</string>
+    <string name="updating">আপডেট হচ্ছে...</string>
+    <string name="update_success">ডাটা সফলভাবে আপডেট করা হয়েছে</string>
+    <string name="update_error">ডাটা আপডেট করতে ত্রুটি হয়েছে</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="error_loading">সামগ্রী লোড করতে ত্রুটি</string>
+    <string name="feature_settings">সেটিংস</string>
+    <string name="feature_settings_desc">অ্যাপ্লিকেশন সেটিংস কাস্টমাইজ করুন</string>
+    <string name="retry">পুনরায় চেষ্টা করুন</string>
+    <string name="share_app">অ্যাপ শেয়ার করুন</string>
+    <string name="share_msg">আওরাদ (Awrad) অ্যাপটি ডাউনলোড করুন: দৈনন্দিন যিকির এবং মোনাজাতের জন্য সেরা অ্যাপ</string>
+</resources>

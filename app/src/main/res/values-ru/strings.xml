@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Аврод</string>
+    <string name="title_main">Аврод</string>
+    <string name="wird_today_title">Вирд на сегодня</string>
+    <string name="wird_today_desc">Начните чтение вашего ежедневного вирда</string>
+    <string name="start_reading">Начать чтение</string>
+    <string name="munajat_title">Ежедневный Мунаджат</string>
+    <string name="munajat_desc">Духовные беседы с Аллахом</string>
+    <string name="dalail_title">Далаил аль-Хайрат</string>
+    <string name="awrad_title">Далаил аль-Хайрат</string>
+    <string name="dalail_desc">Молитвы за Пророка ﷺ</string>
+    <string name="settings">Настройки</string>
+    <string name="notification_interval_title">Частота напоминаний</string>
+    <string name="tasbih">Электронный Тасбих</string>
+    <string name="font_size">Размер шрифта</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">Крепость мусульманина</string>
+    <string name="hisn_morning">Утренние азкары</string>
+    <string name="hisn_evening">Вечерние азкары</string>
+    <string name="hisn_sleep">Азкары перед сном</string>
+    <string name="hisn_prayer">Азкары молитвы</string>
+    <string name="hisn_food">Азкары еды</string>
+    <string name="hisn_travel">Азкары в пути</string>
+    <string name="hisn_mosque">Азкары мечети</string>
+    <string name="hisn_tasbeehat">Тасбихат</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">Сброс</string>
+    <string name="counter_count">Счёт: %1$d</string>
+    <string name="counter_target">Цель: %1$d</string>
+    <string name="istiftah_title">Дуа Аль-Истифтах</string>
+    <string name="ibrahimi_title">Салават Ибрахимия</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">Уведомления о зикре</string>
+    <string name="notification_desc">Напоминания о поиске прощения и молитвах за Пророка ﷺ</string>
+    <string name="enable_notifications">Включить уведомления</string>
+    <string name="advanced_settings">Расширенные настройки напоминаний</string>
+    <string name="about_app">О приложении</string>
+    <string name="about_desc">Подробная информация о приложении и его функциях</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">Приложение Аврод</string>
+    <string name="app_version">Версия 2.3.2</string>
+    <string name="about_app_desc_1">Аврод (Awrad) — это комплексное исламское приложение, объединяющее ежедневные Азкары и Мунаджаты Имама Зайн аль-Абидина (АС). Создано, чтобы помочь вам поддерживать постоянное поминание и молитву в вашей повседневной жизни.</string>
+    <string name="about_app_desc_2">Приложение отличается простым, удобным интерфейсом с элегантным дизайном, приятным для глаз, что помогает вам сосредоточиться на поклонении и духовности.</string>
+    <string name="app_features">Функции приложения</string>
+    <string name="feature_awrad">Ежедневный Аврод</string>
+    <string name="feature_awrad_desc">Семь различных вирдов на каждый день недели, содержащих благословения Пророку ﷺ и благословенные молитвы, полностью огласованные для правильного произношения.</string>
+    <string name="feature_munajat">Мунаджат Имама Зайн аль-Абидина</string>
+    <string name="feature_munajat_desc">Пятнадцать благословенных мунаджатов из «Ас-Сахифа Ас-Саджадия», связанных с ежедневными вирдами, с возможностью читать любой мунаджат в любое время.</string>
+    <string name="feature_tasbih">Электронный Тасбих</string>
+    <string name="feature_tasbih_desc">Цифровой тасбих, содержащий семь избранных зикров с умным счетчиком и вибрационным откликом на каждый счет.</string>
+    <string name="feature_multilingual">Многоязычная поддержка</string>
+    <string name="feature_multilingual_desc">Добавлена полная поддержка для: арабского, английского, урду, хинди, малаялам, узбекского, индонезийского, французского, бенгальского и русского языков, предоставляя объяснения и переводы Аврода и Мунаджата.</string>
+    <string name="feature_hisn">Крепость мусульманина</string>
+    <string name="feature_hisn_desc">Обширная библиотека азкаров, включая: утренние и вечерние, перед сном, молитвенные, при приеме пищи, в путешествии и для мечети.</string>
+    <string name="feature_notifications">Напоминания</string>
+    <string name="feature_notifications_desc">Продвинутая система уведомлений, позволяющая устанавливать интервалы напоминаний (от 5 минут до 3 часов) для Истигфара и Салавата.</string>
+    <string name="footer_dua">Просим Всевышнего Аллаха принять этот труд исключительно ради Его благородного Лика, принести им пользу мусульманам и поместить его на чашу добрых дел каждого, кто внес в него свой вклад.</string>
+    <string name="footer_ameen">Аминь, о Господь миров.</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">Вирд субботы</string>
+    <string name="dalail_sunday">Вирд воскресенья</string>
+    <string name="dalail_monday">Вирд понедельльника</string>
+    <string name="dalail_tuesday">Вирд вторника</string>
+    <string name="dalail_wednesday">Вирд среды</string>
+    <string name="dalail_thursday">Вирд четверга</string>
+    <string name="dalail_friday">Вирд пятницы</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">Мунаджат аскетов</string>
+    <string name="munajat_raghibin_1">Мунаджат желающих (1)</string>
+    <string name="munajat_dhakirin">Мунаджат поминающих</string>
+    <string name="munajat_arifin">Мунаджат познавших</string>
+    <string name="munajat_muftaqirin">Мунаджат нуждающихся</string>
+    <string name="munajat_mutawassilin">Мунаджат ищущих посредничества</string>
+    <string name="munajat_muhibbin">Мунаджат любящих</string>
+    <string name="munajat_muridin">Мунаджат стремящихся</string>
+    <string name="munajat_mutiin">Мунаджат покорных</string>
+    <string name="munajat_shakirin">Мунаджат благодарных</string>
+    <string name="munajat_rajin">Мунаджат надеющихся</string>
+    <string name="munajat_raghibin_2">Мунаджат желающих (2)</string>
+    <string name="munajat_khaifin">Мунаджат боящихся</string>
+    <string name="munajat_shakin">Мунаджат жалующихся</string>
+    <string name="munajat_taibin">Мунаджат кающихся</string>
+
+    <!-- Data Update -->
+    <string name="settings_update_content">Обновить контент</string>
+    <string name="settings_update_desc">Обновить данные приложения и переводы</string>
+    <string name="updating">Обновление...</string>
+    <string name="update_success">Данные успешно обновлены</string>
+    <string name="update_error">Ошибка обновления данных</string>
+
+    <!-- Missing Strings Fixed -->
+    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="error_loading">Ошибка загрузки контента</string>
+    <string name="feature_settings">Настройки</string>
+    <string name="feature_settings_desc">Настроить параметры приложения</string>
+    <string name="retry">Повторить</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="share_msg">Оцените Awrad: Ежедневные азкары и Мунаджаты</string>
+</resources>

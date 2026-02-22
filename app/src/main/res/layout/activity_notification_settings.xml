@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/backgroundBeige" tools:context=".NotificationSettingsActivity">
+
+    <!-- Header -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primaryGreen" android:gravity="center_vertical" android:padding="16dp" android:orientation="horizontal">
+
+
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="إعدادات التذكير" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:fontFamily="serif" android:gravity="center" android:layout_marginEnd="24dp"/>
+
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+            <!-- Days Selection -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/cardBackground" app:cardCornerRadius="12dp" app:cardElevation="2dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="أيام التذكير" android:textColor="@color/textDark" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="7">
+
+                        <!-- Sat -->
+                        <CheckBox android:id="@+id/cbSat" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="س" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Sun -->
+                        <CheckBox android:id="@+id/cbSun" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="أ" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Mon -->
+                        <CheckBox android:id="@+id/cbMon" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="إ" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Tue -->
+                        <CheckBox android:id="@+id/cbTue" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="ث" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Wed -->
+                        <CheckBox android:id="@+id/cbWed" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="أ" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Thu -->
+                        <CheckBox android:id="@+id/cbThu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="خ" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                        <!-- Fri -->
+                        <CheckBox android:id="@+id/cbFri" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="ج" android:checked="true" android:buttonTint="@color/primaryGreen"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Frequency Selection -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/cardBackground" app:cardCornerRadius="12dp" app:cardElevation="2dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="تكرار التذكير" android:textColor="@color/textDark" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+
+                    <RadioGroup android:id="@+id/rgFrequency" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                        <RadioButton android:id="@+id/rb30Min" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كل 30 دقيقة" android:buttonTint="@color/primaryGreen" android:layout_marginBottom="8dp"/>
+
+                        <RadioButton android:id="@+id/rb1Hour" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كل ساعة" android:buttonTint="@color/primaryGreen" android:layout_marginBottom="8dp"/>
+
+                        <RadioButton android:id="@+id/rb2Hours" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كل ساعتين" android:buttonTint="@color/primaryGreen" android:layout_marginBottom="8dp"/>
+
+                        <RadioButton android:id="@+id/rb3Hours" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كل 3 ساعات" android:buttonTint="@color/primaryGreen" android:layout_marginBottom="8dp"/>
+
+                        <RadioButton android:id="@+id/rb6Hours" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كل 6 ساعات" android:buttonTint="@color/primaryGreen"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Save Button -->
+            <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="حفظ الإعدادات" android:background="@drawable/button_islamic_bg" android:textColor="@color/white" android:textSize="16sp" android:paddingVertical="12dp" app:backgroundTint="@null" android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

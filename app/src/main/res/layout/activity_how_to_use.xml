@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/backgroundBeige" tools:context=".HowToUseActivity">
+
+    <!-- Header -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primaryGreen" android:gravity="center_vertical" android:padding="16dp" android:orientation="horizontal">
+
+
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="كيفية الاستخدام" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:fontFamily="serif" android:gravity="center" android:layout_marginEnd="24dp"/>
+
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+            <!-- Intro Card -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="2dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ملاحظات مهمة" android:textColor="@color/textDark" android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• جميع النصوص مشكّلة بالكامل لضمان النطق الصحيح." android:textColor="#555555" android:textSize="14sp" android:layout_marginBottom="8dp"/>
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• الأوراد مرتبطة تلقائياً بالمناجاة حسب أيام الأسبوع." android:textColor="#555555" android:textSize="14sp" android:layout_marginBottom="8dp"/>
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• يمكنك قراءة أي ورد أو مناجاة في أي وقت من خلال القوائم المنسدلة." android:textColor="#555555" android:textSize="14sp" android:layout_marginBottom="8dp"/>
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="• التطبيق يعمل بدون اتصال بالإنترنت بعد التثبيت." android:textColor="#555555" android:textSize="14sp"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Usage Steps -->
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="كيفية الاستخدام" android:textColor="@color/textDark" android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="12dp" android:layout_marginEnd="8dp"/>
+
+            <!-- Step 1 -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_prayer" app:tint="@color/primaryGreen" android:layout_marginTop="4dp"/>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قراءة الورد اليومي" android:textColor="@color/textDark" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="4dp"/>
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="يعرض التطبيق تلقائياً ورد اليوم الحالي مع المناجاة المناسبة. اضغط على 'ابدأ القراءة' من الشاشة الرئيسية." android:textColor="#555555" android:textSize="14sp" android:lineSpacingExtra="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Step 2 -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_mosque" app:tint="@color/primaryGreen" android:layout_marginTop="4dp"/>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="تصفح جميع الأوراد والمناجاة" android:textColor="@color/textDark" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="4dp"/>
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="يمكنك الوصول إلى جميع الأوراد والمناجاة من خلال القوائم الموجودة في الصفحة الرئيسية." android:textColor="#555555" android:textSize="14sp" android:lineSpacingExtra="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Step 3 -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_notification" app:tint="@color/primaryGreen" android:layout_marginTop="4dp"/>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="إعداد الإشعارات" android:textColor="@color/textDark" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="4dp"/>
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="فعل الإشعارات واختر نوع الذكر واليوم والأوقات المناسبة. استخدم 'الإعدادات' للتأكد من عمل الإشعارات." android:textColor="#555555" android:textSize="14sp" android:lineSpacingExtra="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Step 4 -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_tasbeehat" app:tint="@color/primaryGreen" android:layout_marginTop="4dp"/>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="المسبحة الإلكترونية" android:textColor="@color/textDark" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="4dp"/>
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="اضغط على الدائرة الكبيرة للتسبيح. يتم الانتقال تلقائياً للذكر التالي بعد 33 مرة." android:textColor="#555555" android:textSize="14sp" android:lineSpacingExtra="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Step 5 -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:cardBackgroundColor="@android:color/transparent" android:background="@drawable/card_background" app:cardCornerRadius="12dp" app:cardElevation="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_language" app:tint="@color/primaryGreen" android:layout_marginTop="4dp"/>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="تغيير الخط" android:textColor="@color/textDark" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="4dp"/>
+
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="استخدم أزرار + و - في أسفل صفحة القراءة لتغيير حجم الخط بما يناسبك." android:textColor="#555555" android:textSize="14sp" android:lineSpacingExtra="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Footer Dua -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:cardBackgroundColor="#E8E6D9" app:cardCornerRadius="16dp" app:cardElevation="0dp" app:strokeColor="@color/primaryGreen" app:strokeWidth="1dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:gravity="center">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="نسأل الله تعالى أن يجعل هذا العمل خالصاً لوجهه الكريم، وأن ينفع به المسلمين، وأن يجعله في ميزان حسنات كل من ساهم فيه." android:textColor="@color/textDark" android:textSize="16sp" android:gravity="center" android:fontFamily="serif" android:lineSpacingExtra="6dp" android:layout_marginBottom="16dp"/>
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="آمين يا رب العالمين" android:textColor="@color/primaryGreen" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:fontFamily="serif"/>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

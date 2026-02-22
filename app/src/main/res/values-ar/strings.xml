@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أوراد</string>
+    <string name="title_main">أوراد</string>
+    <string name="wird_today_title">ورد اليوم</string>
+    <string name="wird_today_desc">ابدأ قراءة وردك اليومي</string>
+    <string name="start_reading">ابدأ القراءة</string>
+    <string name="munajat_title">المناجاة</string>
+    <string name="munajat_desc">همسات روحانية مع الله</string>
+    <string name="dalail_title">دلائل الخيرات</string>
+    <string name="awrad_title">دلائل الخيرات</string>
+    <string name="dalail_desc">الصلاة على النبي ﷺ</string>
+    <string name="settings">الإعدادات</string>
+    <string name="notification_interval_title">تكرار التذكير</string>
+    <string name="tasbih">حصن المسلم</string>
+    <string name="font_size">حجم الخط</string>
+
+    <string name="istiftah_title">دعاء الاستفتاح</string>
+    <string name="ibrahimi_title">الصلاة الإبراهيمية</string>
+
+    <!-- Hisn Al-Muslim Categories -->
+    <string name="hisn_muslim_title">حصن المسلم</string>
+    <string name="hisn_morning">أذكار الصباح</string>
+    <string name="hisn_evening">أذكار المساء</string>
+    <string name="hisn_sleep">أذكار النوم</string>
+    <string name="hisn_prayer">أذكار الصلاة</string>
+    <string name="hisn_food">أذكار الطعام</string>
+    <string name="hisn_travel">أذكار السفر</string>
+    <string name="hisn_mosque">أذكار المسجد</string>
+    <string name="hisn_tasbeehat">تسابيح</string>
+
+    <!-- Counter UI -->
+    <string name="counter_reset">إعادة ضبط</string>
+    <string name="counter_count">العدد: %d</string>
+    <string name="counter_target">الهدف: %d</string>
+
+    <!-- Settings Strings -->
+    <string name="notification_title">تنبيهات الذكر</string>
+    <string name="notification_desc">تذكير بالاستغفار والصلاة على النبي ﷺ</string>
+    <string name="enable_notifications">تفعيل التنبيهات</string>
+    <string name="advanced_settings">إعدادات التذكير المتقدمة</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="about_desc">معلومات تفصيلية عن التطبيق والميزات</string>
+
+    <!-- About App Strings -->
+    <string name="app_name_title">تطبيق أوراد</string>
+    <string name="app_version">الإصدار 2.3.2</string>
+    <string name="about_app_desc_1">أوراد هو تطبيق إسلامي شامل يجمع بين الأذكار اليومية ومناجاة الإمام زين العابدين (عليه السلام). صُمم لمساعدتك على المداومة على الذكر والدعاء في حياتك اليومية.</string>
+    <string name="about_app_desc_2">يتميز التطبيق بواجهة بسيطة وسهلة الاستخدام، مع تصميم أنيق مريح للعين يساعدك على التركيز في العبادة والروحانية.</string>
+    <string name="app_features">ميزات التطبيق</string>
+    <string name="feature_awrad">الأوراد اليومية</string>
+    <string name="feature_awrad_desc">سبعة أوراد مختلفة لكل يوم من أيام الأسبوع، تحتوي على صلوات على النبي ﷺ و أدعية مباركة مشكولة بالكامل لضمان صحة القراءة.</string>
+    <string name="feature_munajat">مُناجاة الإمام زين العابدين</string>
+    <string name="feature_munajat_desc">خمسة عشر مناجاة روحانية للإمام زين العابدين (ع)، مرتبة لتنتقل بك في رحلة إيمانية عميقة، من التوبة إلى الشكر والذكر.</string>
+    <string name="feature_hisn">حصن المسلم</string>
+    <string name="feature_hisn_desc">مجموعة مختارة من الأذكار والأدعية من كتاب حصن المسلم، مصنفة لسهولة الوصول إليها (أذكار الصباح والمساء، النوم، الصلاة، إلخ).</string>
+    <string name="feature_notifications">تنبيهات ذكية</string>
+    <string name="feature_notifications_desc">نظام تنبيهات مرن يذكرك بالذكر والصلاة على النبي ﷺ في أوقات محددة، مع إمكانية تخصيص التكرار ونغمه التنبيه.</string>
+    <string name="feature_settings">تخصيص كامل</string>
+    <string name="feature_settings_desc">تحكم كامل في إعدادات التطبيق، حجم الخط، الوضع الليلي (تلقائي/يدوي)، ولغة التطبيق.</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="contact_email">support@awradapp.com</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="share_msg">جرب تطبيق أوراد للأذكار والمناجاة: [رابط التطبيق]</string>
+
+    <!-- Errors -->
+    <string name="error_loading">حدث خطأ في تحميل البيانات</string>
+    <string name="retry">إعادة المحاولة</string>
+
+    <string name="footer_dua">نسأل الله العلي القدير أن يتقبل هذا العمل خالصاً لوجهه الكريم، وأن ينفع به المسلمين، وأن يجعله في ميزان حسنات كل من ساهم فيه.</string>
+    <string name="footer_ameen">آمين يا رب العالمين</string>
+
+    <!-- Dalail Days -->
+    <string name="dalail_saturday">ورد السبت</string>
+    <string name="dalail_sunday">ورد الأحد</string>
+    <string name="dalail_monday">ورد الاثنين</string>
+    <string name="dalail_tuesday">ورد الثلاثاء</string>
+    <string name="dalail_wednesday">ورد الأربعاء</string>
+    <string name="dalail_thursday">ورد الخميس</string>
+    <string name="dalail_friday">ورد الجمعة</string>
+
+    <!-- Munajat Titles -->
+    <string name="munajat_zahidin">مناجاة الزاهدين</string>
+    <string name="munajat_raghibin_1">مناجاة الراغبين (1)</string>
+    <string name="munajat_dhakirin">مناجاة الذاكرين</string>
+    <string name="munajat_arifin">مناجاة العارفين</string>
+    <string name="munajat_muftaqirin">مناجاة المفتقرين</string>
+    <string name="munajat_mutawassilin">مناجاة المتوسلين</string>
+    <string name="munajat_muhibbin">مناجاة المحبين</string>
+    <string name="munajat_muridin">مناجاة المريدين</string>
+    <string name="munajat_mutiin">مناجاة المطيعين</string>
+    <string name="munajat_shakirin">مناجاة الشاكرين</string>
+    <string name="munajat_rajin">مناجاة الراجين</string>
+    <string name="munajat_raghibin_2">مناجاة الراغبين (2)</string>
+    <string name="munajat_khaifin">مناجاة الخائفين</string>
+    <string name="munajat_shakin">مناجاة الشاكين</string>
+    <string name="munajat_taibin">مناجاة التائبين</string>
+
+</resources>

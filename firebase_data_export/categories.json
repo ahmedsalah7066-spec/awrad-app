@@ -1,0 +1,93 @@
+[
+  {
+    "id": "morning",
+    "titleResId": "hisn_morning",
+    "iconResId": 0,
+    "orderIndex": 0,
+    "type": "hisn"
+  },
+  {
+    "id": "evening",
+    "titleResId": "hisn_evening",
+    "iconResId": 0,
+    "orderIndex": 1,
+    "type": "hisn"
+  },
+  {
+    "id": "sleep",
+    "titleResId": "hisn_sleep",
+    "iconResId": 0,
+    "orderIndex": 2,
+    "type": "hisn"
+  },
+  {
+    "id": "prayer",
+    "titleResId": "hisn_prayer",
+    "iconResId": 0,
+    "orderIndex": 3,
+    "type": "hisn"
+  },
+  {
+    "id": "wakeup",
+    "titleResId": "hisn_wakeup",
+    "iconResId": 0,
+    "orderIndex": 4,
+    "type": "hisn"
+  },
+  {
+    "id": "quran",
+    "titleResId": "hisn_quran",
+    "iconResId": 0,
+    "orderIndex": 5,
+    "type": "hisn"
+  },
+  {
+    "id": "home",
+    "titleResId": "hisn_home",
+    "iconResId": 0,
+    "orderIndex": 6,
+    "type": "hisn"
+  },
+  {
+    "id": "mosque",
+    "titleResId": "hisn_mosque",
+    "iconResId": 0,
+    "orderIndex": 7,
+    "type": "hisn"
+  },
+  {
+    "id": "travel",
+    "titleResId": "hisn_travel",
+    "iconResId": 0,
+    "orderIndex": 8,
+    "type": "hisn"
+  },
+  {
+    "id": "various",
+    "titleResId": "hisn_various",
+    "iconResId": 0,
+    "orderIndex": 9,
+    "type": "hisn"
+  },
+  {
+    "id": "munajat",
+    "titleResId": "munajat_title",
+    "iconResId": 0,
+    "orderIndex": 100,
+    "type": "munajat"
+  },
+  {
+    "id": "awrad",
+    "titleResId": "dalail_title",
+    "iconResId": 0,
+    "orderIndex": 101,
+    "type": "awrad"
+  },
+  {
+    "id": "daily_essentials",
+    "titleResId": "daily_essentials_title",
+    "iconResId": 0,
+    "orderIndex": 102,
+    "type": "essential"
+  }
+]
