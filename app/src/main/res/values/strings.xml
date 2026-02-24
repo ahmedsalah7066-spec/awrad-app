@@ -53,8 +53,10 @@
     <string name="feature_munajat_desc">Fifteen blessed Munajat from Al-Sahifa Al-Sajjadiyya, linked to daily wirds, with the ability to read any Munajat at any time.</string>
     <string name="feature_tasbih">Electronic Tasbih</string>
     <string name="feature_tasbih_desc">Digital tasbih containing seven selected dhikrs with a smart counter and vibration feedback on each count.</string>
-    <string name="feature_multilingual">Multi-language Support</string>
-    <string name="feature_multilingual_desc">Full support added for: Arabic, English, Urdu, Hindi, and Malayalam, providing explanations and translations for Awrad and Munajat.</string>
+    <string name="feature_multilingual">12 Languages Support</string>
+    <string name="feature_multilingual_desc">Full support for 12 languages, providing worldwide access to explanations and translations for Awrad and Munajat.</string>
+    <string name="feature_sharing">Content Sharing</string>
+    <string name="feature_sharing_desc">Easily share Awrad, Munajat, and Adhkar with your friends and family.</string>
     <string name="feature_hisn">Hisn Al-Muslim</string>
     <string name="feature_hisn_desc">Comprehensive library of Adhkar including: Morning &amp; Evening, Sleep, Prayer, Food, Travel, and Mosque Adhkar.</string>
     <string name="feature_notifications">Reminder Notifications</string>
@@ -108,4 +110,5 @@
     <string name="notif_msg_salawat">Peace and blessings upon the Messenger of Allah ﷺ</string>
     <string name="notif_msg_dhikr">Remember Allah</string>
     <string name="notif_msg_istighfar">Seek forgiveness from Allah</string>
+    <string name="back">Back</string>
 </resources>

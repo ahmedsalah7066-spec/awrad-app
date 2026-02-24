@@ -80,7 +80,8 @@ class JsonDataLoader @Inject constructor(
                     content = content,
                     translation = translation,
                     title = title,
-                    type = type
+                    type = type,
+                    id = id.ifBlank { null }
                 ))
             }
         } catch (e: Exception) {

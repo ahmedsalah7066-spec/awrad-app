@@ -97,15 +97,19 @@ class LanguageSyncManager @Inject constructor(
                     ))
                 }
 
-                // Munajat
+                // Munajat — use the real ID from the item (e.g. munajat_taibin) so it
+                // matches Firestore doc IDs and prevents numeric-ID duplicates in Room.
                 val munajatList = jsonDataLoader.loadMunajat(languageCode)
                 munajatList.forEachIndexed { index, munajat ->
                     val textToSeed = if (languageCode == "ar") munajat.content else {
                         if (munajat.translation.isNotEmpty()) munajat.translation else munajat.content
                     }
                     val arabicFallback = if (languageCode != "ar") munajat.content else ""
+                    // Prefer a concrete ID from the item; fall back to positional only if missing
+                    val munajatId = munajat.id?.takeIf { it.isNotBlank() }
+                        ?: "munajat_${index + 1}"
                     entities.add(com.example.awrad.data.room.TranslationEntity(
-                        id = "munajat_${index + 1}",
+                        id = munajatId,
                         languageCode = languageCode,
                         type = "munajat",
                         title = munajat.title,

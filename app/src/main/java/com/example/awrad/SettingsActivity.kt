@@ -63,6 +63,9 @@ class SettingsActivity : BaseActivity() {
 
         // Language Card
         val cardLanguage = findViewById<MaterialCardView>(R.id.cardLanguage)
+        val tvCurrentLanguage = findViewById<TextView>(R.id.tvCurrentLanguage)
+        tvCurrentLanguage.text = getCurrentLanguageLabel()
+
         cardLanguage.setOnClickListener {
             showLanguageDialog()
         }
@@ -97,6 +100,12 @@ class SettingsActivity : BaseActivity() {
                     cardUpdateContent.isEnabled = true
                 }
             }
+        }
+
+        // --- About App Card ---
+        val cardAbout = findViewById<MaterialCardView>(R.id.cardAbout)
+        cardAbout.setOnClickListener {
+            startActivity(Intent(this, AboutActivity::class.java))
         }
     }
 
@@ -145,26 +154,26 @@ class SettingsActivity : BaseActivity() {
     }
 
     private fun showLanguageDialog() {
-        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O\'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
+        val languages = arrayOf("English", "العربية", "Türkçe", "اردو", "മലയാളം", "O\'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.feature_multilingual))
         
         val adapter = android.widget.ArrayAdapter(this, R.layout.dialog_item_language, languages)
         builder.setAdapter(adapter) { _, which ->
             val langCode = when (which) {
-                1 -> "en"
-                2 -> "ar"
-                3 -> "tr"
-                4 -> "ur"
-                5 -> "ml"
-                6 -> "uz"
-                7 -> "id"
-                8 -> "fr"
-                9 -> "bn"
-                10 -> "ru"
-                11 -> "hi"
-                12 -> "fa"
-                else -> "" // Default/System
+                0 -> "en"
+                1 -> "ar"
+                2 -> "tr"
+                3 -> "ur"
+                4 -> "ml"
+                5 -> "uz"
+                6 -> "id"
+                7 -> "fr"
+                8 -> "bn"
+                9 -> "ru"
+                10 -> "hi"
+                11 -> "fa"
+                else -> "ar"
             }
 
             // 1. Persist new language preference
@@ -186,7 +195,6 @@ class SettingsActivity : BaseActivity() {
     private fun getCurrentLanguageLabel(): String {
         val currentLang = LocaleManager.getLanguage(this)
         return when (currentLang) {
-            "ar" -> "العربية"
             "en" -> "English"
             "tr" -> "Türkçe"
             "ur" -> "اردو"
@@ -198,7 +206,7 @@ class SettingsActivity : BaseActivity() {
             "ru" -> "Русский"
             "hi" -> "हिन्दी"
             "fa" -> "فارسی"
-            else -> "System Default"
+            else -> "العربية"
         }
     }
     private fun checkAndRequestPermissions() {

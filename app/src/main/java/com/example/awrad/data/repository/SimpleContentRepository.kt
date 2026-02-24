@@ -183,7 +183,11 @@ class SimpleContentRepository @Inject constructor(
         // Try Room first
         val roomEntities = translationDao.getByType("munajat", languageCode)
         if (roomEntities.isNotEmpty()) {
-            return roomEntities.map { it.toMunajat() }
+            // Filter out entries with blank titles to avoid showing empty cards
+            // (can happen when Firestore has a corrupt/duplicate entry with no title)
+            return roomEntities
+                .filter { it.title != null && it.title.isNotBlank() }
+                .map { it.toMunajat() }
         }
 
         if (languageCode in EMBEDDED_LANGUAGES) {

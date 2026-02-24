@@ -5,7 +5,8 @@ data class Munajat(
     val content: String,
     val translation: String = "",
     val title: String? = null,  // Direct title from database
-    val type: String = "dua"
+    val type: String = "dua",
+    val id: String? = null      // Document ID (e.g. munajat_taibin)
 )
 
 object MunajatData {
