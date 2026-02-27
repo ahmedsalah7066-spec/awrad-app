@@ -60,10 +60,13 @@
     <string name="feature_multilingual_desc">دعم كامل لـ 12 لغة مختلفة حول العالم مع تقديم الشروحات والترجمات للأوراد والمناجاة.</string>
     <string name="feature_sharing">مشاركة المحتوى</string>
     <string name="feature_sharing_desc">إمكانية مشاركة الأوراد والمناجاة والأذكار بسهولة مع أهلك وأصدقائك لنشر الفائدة.</string>
+    <string name="feature_update">تحديث البيانات</string>
+    <string name="feature_update_desc">مزامنة بيانات التطبيق مع الخادم للحصول على أحدث الترجمات وتصحيح الأذكار فوراً.</string>
     <string name="feature_settings">تخصيص كامل</string>
     <string name="feature_settings_desc">تحكم كامل في إعدادات التطبيق، حجم الخط، الوضع الليلي (تلقائي/يدوي)، ولغة التطبيق.</string>
     <string name="contact_us">تواصل معنا</string>
-    <string name="contact_email">support@awradapp.com</string>
+    <string name="contact_email">akzsmh@gmail.com</string>
+    <string name="contact_us_desc">للتواصل وإضافة الملاحظات والمقترحات</string>
     <string name="share_app">مشاركة التطبيق</string>
     <string name="share_msg">جرب تطبيق أوراد للأذكار والمناجاة: [رابط التطبيق]</string>
 

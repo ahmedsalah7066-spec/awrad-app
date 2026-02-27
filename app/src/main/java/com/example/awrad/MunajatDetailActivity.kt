@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import android.content.Context
 import androidx.lifecycle.lifecycleScope
 import com.example.awrad.data.repository.SimpleContentRepository
 import kotlinx.coroutines.launch
@@ -21,6 +22,7 @@ class MunajatDetailActivity : BaseActivity() {
     lateinit var repository: SimpleContentRepository
 
     private var currentTextSize = 18f
+    private lateinit var prefs: android.content.SharedPreferences
     private lateinit var titleView: TextView
     private lateinit var contentView: TextView
 
@@ -29,6 +31,9 @@ class MunajatDetailActivity : BaseActivity() {
         setContentView(R.layout.activity_munajat_detail)
 
         val index = intent.getIntExtra("munajat_index", 0)
+        
+        prefs = getSharedPreferences("font_prefs", Context.MODE_PRIVATE)
+        currentTextSize = prefs.getFloat("munajat_font_size", 18f)
 
         // Header Setup
         val headerView = findViewById<android.view.View>(R.id.header)
@@ -79,6 +84,15 @@ class MunajatDetailActivity : BaseActivity() {
             
             contentView.text = displayText
             
+            contentView.post {
+                val prefs = getSharedPreferences("munajat_prefs", Context.MODE_PRIVATE)
+                val savedScrollY = prefs.getInt("scroll_munajat_$index", 0)
+                if (savedScrollY > 0) {
+                    val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+                    scrollView?.scrollTo(0, savedScrollY)
+                }
+            }
+            
             // Share Button
             shareButton.visibility = android.view.View.VISIBLE
             shareButton.setOnClickListener {
@@ -94,6 +108,7 @@ class MunajatDetailActivity : BaseActivity() {
             if (currentTextSize < 32f) {
                 currentTextSize += 2f
                 contentView.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize)
+                prefs.edit().putFloat("munajat_font_size", currentTextSize).apply()
             }
         }
 
@@ -101,7 +116,18 @@ class MunajatDetailActivity : BaseActivity() {
             if (currentTextSize > 12f) {
                 currentTextSize -= 2f
                 contentView.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize)
+                prefs.edit().putFloat("munajat_font_size", currentTextSize).apply()
             }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+        val index = intent.getIntExtra("munajat_index", 0)
+        if (scrollView != null) {
+            val prefs = getSharedPreferences("munajat_prefs", Context.MODE_PRIVATE)
+            prefs.edit().putInt("scroll_munajat_$index", scrollView.scrollY).apply()
         }
     }
 }

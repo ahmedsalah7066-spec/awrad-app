@@ -57,6 +57,8 @@
     <string name="feature_multilingual_desc">Full support for 12 languages, providing worldwide access to explanations and translations for Awrad and Munajat.</string>
     <string name="feature_sharing">Content Sharing</string>
     <string name="feature_sharing_desc">Easily share Awrad, Munajat, and Adhkar with your friends and family.</string>
+    <string name="feature_update">Update Content</string>
+    <string name="feature_update_desc">Sync app data with the server to receive the latest translations and corrections instantly.</string>
     <string name="feature_hisn">Hisn Al-Muslim</string>
     <string name="feature_hisn_desc">Comprehensive library of Adhkar including: Morning &amp; Evening, Sleep, Prayer, Food, Travel, and Mosque Adhkar.</string>
     <string name="feature_notifications">Reminder Notifications</string>
@@ -97,8 +99,9 @@
     <string name="update_error">Error updating data</string>
 
     <!-- Missing Strings Fixed -->
-    <string name="contact_email">support@awrad.com</string>
+    <string name="contact_email">akzsmh@gmail.com</string>
     <string name="contact_us">Contact Us</string>
+    <string name="contact_us_desc">For communication, notes, and suggestions</string>
     <string name="error_loading">Error loading content</string>
     <string name="feature_settings">Settings</string>
     <string name="feature_settings_desc">Customize app settings</string>

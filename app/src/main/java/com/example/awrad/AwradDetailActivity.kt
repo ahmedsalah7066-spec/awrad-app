@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import android.content.Context
 import androidx.activity.viewModels // Import this!
 import com.example.awrad.data.repository.SimpleContentRepository
 import java.util.Locale
@@ -19,6 +20,7 @@ class AwradDetailActivity : BaseActivity() {
     private val viewModel: AwradDetailViewModel by viewModels()
 
     private var currentTextSize = 18f
+    private lateinit var prefs: android.content.SharedPreferences
     private lateinit var explanationView: TextView
     private lateinit var titleView: TextView
     private lateinit var contentView: TextView
@@ -29,6 +31,9 @@ class AwradDetailActivity : BaseActivity() {
 
         val dayIndex = intent.getIntExtra("day_index", -1)
         val dayTitle = intent.getStringExtra("day_title") ?: ""
+        
+        prefs = getSharedPreferences("font_prefs", Context.MODE_PRIVATE)
+        currentTextSize = prefs.getFloat("awrad_font_size", 18f)
 
         // Header Setup
         val headerView = findViewById<android.view.View>(R.id.header)
@@ -60,6 +65,16 @@ class AwradDetailActivity : BaseActivity() {
         // Observe ViewModel
         viewModel.awradContent.observe(this) { content ->
             contentView.text = content
+            
+            contentView.post {
+                val dIndex = intent.getIntExtra("day_index", -1)
+                val prefs = getSharedPreferences("awrad_prefs", Context.MODE_PRIVATE)
+                val savedScrollY = prefs.getInt("scroll_awrad_$dIndex", 0)
+                if (savedScrollY > 0) {
+                    val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+                    scrollView?.scrollTo(0, savedScrollY)
+                }
+            }
         }
 
         // Trigger Data Load
@@ -84,6 +99,7 @@ class AwradDetailActivity : BaseActivity() {
             if (currentTextSize < 32f) {
                 currentTextSize += 2f
                 contentView.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize)
+                prefs.edit().putFloat("awrad_font_size", currentTextSize).apply()
             }
         }
 
@@ -91,7 +107,18 @@ class AwradDetailActivity : BaseActivity() {
             if (currentTextSize > 12f) {
                 currentTextSize -= 2f
                 contentView.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize)
+                prefs.edit().putFloat("awrad_font_size", currentTextSize).apply()
             }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+        val dayIndex = intent.getIntExtra("day_index", -1)
+        if (scrollView != null && dayIndex != -1) {
+            val prefs = getSharedPreferences("awrad_prefs", Context.MODE_PRIVATE)
+            prefs.edit().putInt("scroll_awrad_$dayIndex", scrollView.scrollY).apply()
         }
     }
 }

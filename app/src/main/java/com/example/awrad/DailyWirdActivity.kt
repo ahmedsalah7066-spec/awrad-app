@@ -1,5 +1,6 @@
 package com.example.awrad
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.TypedValue
@@ -56,6 +57,16 @@ class DailyWirdActivity : BaseActivity() {
         contentView.text = androidx.core.text.HtmlCompat.fromHtml(state.htmlContent, androidx.core.text.HtmlCompat.FROM_HTML_MODE_LEGACY)
         contentView.setTextSize(TypedValue.COMPLEX_UNIT_SP, state.fontSize)
         
+        contentView.post {
+            val prefs = getSharedPreferences("daily_wird_prefs", Context.MODE_PRIVATE)
+            val today = java.text.SimpleDateFormat("yyyy_MM_dd", java.util.Locale.getDefault()).format(java.util.Date())
+            val savedScrollY = prefs.getInt("scroll_daily_$today", 0)
+            if (savedScrollY > 0) {
+                val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+                scrollView?.scrollTo(0, savedScrollY)
+            }
+        }
+        
         // Update Title if needed
         if (state.dayTitleResId != 0) {
             val titleView = findViewById<TextView>(R.id.tvDetailTitle)
@@ -72,5 +83,15 @@ class DailyWirdActivity : BaseActivity() {
         intent.putExtra(Intent.EXTRA_TEXT, content)
         startActivity(Intent.createChooser(intent, "Share via"))
         android.widget.Toast.makeText(this, "تم نسخ الورد بالكامل", android.widget.Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        val scrollView = findViewById<android.widget.ScrollView>(R.id.scrollView)
+        if (scrollView != null) {
+            val prefs = getSharedPreferences("daily_wird_prefs", Context.MODE_PRIVATE)
+            val today = java.text.SimpleDateFormat("yyyy_MM_dd", java.util.Locale.getDefault()).format(java.util.Date())
+            prefs.edit().putInt("scroll_daily_$today", scrollView.scrollY).apply()
+        }
     }
 }

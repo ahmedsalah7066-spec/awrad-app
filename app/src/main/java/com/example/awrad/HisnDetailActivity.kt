@@ -41,7 +41,9 @@ class HisnDetailActivity : BaseActivity() {
         categoryId = intent.getStringExtra("categoryId") ?: ""
 
         // Set initial font size based on category
-        currentFontSize = if (categoryId == "tasbeehat") 35f else 18f
+        val fontPrefs = getSharedPreferences("font_prefs", Context.MODE_PRIVATE)
+        val defaultSize = if (categoryId == "tasbeehat") 35f else 18f
+        currentFontSize = fontPrefs.getFloat("hisn_font_size_$categoryId", defaultSize)
 
         // Header Setup
         val headerView = findViewById<View>(R.id.header)
@@ -60,6 +62,9 @@ class HisnDetailActivity : BaseActivity() {
         tvLargeCounter = findViewById(R.id.tvLargeCounter)
         tvTargetCount = findViewById(R.id.tvTargetCount)
         tvPageIndicator = findViewById(R.id.tvPageIndicator)
+
+        findViewById<View>(android.R.id.content).setOnClickListener { incrementCounter() }
+        viewPager.setOnClickListener { incrementCounter() }
 
         initControls()
 
@@ -97,11 +102,13 @@ class HisnDetailActivity : BaseActivity() {
         findViewById<View>(R.id.btnIncreaseFont).setOnClickListener {
             currentFontSize += 2f
             if (::adapter.isInitialized) adapter.setFontSize(currentFontSize)
+            getSharedPreferences("font_prefs", Context.MODE_PRIVATE).edit().putFloat("hisn_font_size_$categoryId", currentFontSize).apply()
         }
         findViewById<View>(R.id.btnDecreaseFont).setOnClickListener {
             if (currentFontSize > 12f) {
                 currentFontSize -= 2f
                 if (::adapter.isInitialized) adapter.setFontSize(currentFontSize)
+                getSharedPreferences("font_prefs", Context.MODE_PRIVATE).edit().putFloat("hisn_font_size_$categoryId", currentFontSize).apply()
             }
         }
 
@@ -150,7 +157,44 @@ class HisnDetailActivity : BaseActivity() {
             }
         })
         
-        updateUI(0)
+        val lastPage = sharedPreferences.getInt("last_page_${categoryId}", 0)
+        val targetPage = if (lastPage < items.size) lastPage else 0
+        
+        if (targetPage > 0) {
+            // Need to post to make sure it's applied correctly
+            viewPager.post {
+                viewPager.setCurrentItem(targetPage, false)
+            }
+        }
+        
+        updateUI(targetPage)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        if (::viewPager.isInitialized) {
+            sharedPreferences.edit().putInt("last_page_${categoryId}", viewPager.currentItem).apply()
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        if (isFinishing) {
+            clearCategoryProgress()
+        }
+    }
+
+    private fun clearCategoryProgress() {
+        val editor = sharedPreferences.edit()
+        editor.remove("last_page_${categoryId}")
+        
+        val allEntries = sharedPreferences.all
+        for (key in allEntries.keys) {
+            if (key.startsWith("count_${categoryId}_")) {
+                editor.remove(key)
+            }
+        }
+        editor.apply()
     }
 
 
@@ -254,6 +298,7 @@ class DhikrPagerAdapter(
     private var fontSize: Float = if (categoryId == "tasbeehat") 35f else 18f
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val itemRoot: View = view.findViewById(R.id.itemRoot)
         val content: TextView = view.findViewById(R.id.tvArabic) // Renamed property, kepy ID
         val translation: TextView = view.findViewById(R.id.tvTranslation)
         val fadl: TextView = view.findViewById(R.id.tvFadl)
@@ -297,6 +342,8 @@ class DhikrPagerAdapter(
         }
         
         holder.itemView.setOnClickListener { onItemClick() }
+        holder.itemRoot.setOnClickListener { onItemClick() }
+        holder.translation.setOnClickListener { onItemClick() }
         holder.content.setOnClickListener { onItemClick() }
         holder.fadl.setOnClickListener { onItemClick() }
     }

@@ -117,26 +117,26 @@ class MainActivity : BaseActivity() {
     }
 
     private fun showLanguageDialog() {
-        val languages = arrayOf("System Default", "English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
+        val languages = arrayOf("English", "العربية", "Türkçe", "اردو", "മലയാളം", "O'zbekcha (Кирилл)", "Bahasa Indonesia", "Français", "বাংলা", "Русский", "हिन्दी", "فارسی")
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.feature_multilingual))
 
         val adapter = android.widget.ArrayAdapter(this, R.layout.dialog_item_language, languages)
         builder.setAdapter(adapter) { _, which ->
             val langCode = when (which) {
-                1 -> "en"
-                2 -> "ar"
-                3 -> "tr"
-                4 -> "ur"
-                5 -> "ml"
-                6 -> "uz"
-                7 -> "id"
-                8 -> "fr"
-                9 -> "bn"
-                10 -> "ru"
-                11 -> "hi"
-                12 -> "fa"
-                else -> "" // Default/System
+                0 -> "en"
+                1 -> "ar"
+                2 -> "tr"
+                3 -> "ur"
+                4 -> "ml"
+                5 -> "uz"
+                6 -> "id"
+                7 -> "fr"
+                8 -> "bn"
+                9 -> "ru"
+                10 -> "hi"
+                11 -> "fa"
+                else -> "ar"
             }
 
             // 1. Persist new language preference

@@ -95,6 +95,17 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
+            <!-- Feature: Update Content -->
+            <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardBackgroundColor="@color/cardBackground" app:cardCornerRadius="12dp" app:cardElevation="2dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="14dp" android:gravity="center_vertical">
+                    <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/ic_refresh" app:tint="@color/primaryGreen"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/feature_update" android:textColor="@color/textDark" android:textSize="15sp" android:textStyle="bold" android:gravity="end|right"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/feature_update_desc" android:textColor="#777777" android:textSize="12sp" android:gravity="end|right" android:lineSpacingMultiplier="1.4"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Feature: Sharing -->
             <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/cardBackground" app:cardCornerRadius="12dp" app:cardElevation="2dp">
                 <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="14dp" android:gravity="center_vertical">
@@ -102,6 +113,18 @@
                     <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
                         <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/feature_sharing" android:textColor="@color/textDark" android:textSize="15sp" android:textStyle="bold" android:gravity="end|right"/>
                         <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/feature_sharing_desc" android:textColor="#777777" android:textSize="12sp" android:gravity="end|right" android:lineSpacingMultiplier="1.4"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Feature: Contact Us -->
+            <com.google.android.material.card.MaterialCardView android:id="@+id/cardContactUs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:cardBackgroundColor="@color/cardBackground" app:cardCornerRadius="12dp" app:cardElevation="2dp" android:foreground="?attr/selectableItemBackground" android:clickable="true" android:focusable="true">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="14dp" android:gravity="center_vertical">
+                    <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/ic_info" app:tint="@color/primaryGreen"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_us" android:textColor="@color/textDark" android:textSize="15sp" android:textStyle="bold" android:gravity="end|right"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_us_desc" android:textColor="#777777" android:textSize="12sp" android:gravity="end|right" android:lineSpacingMultiplier="1.4" android:layout_marginBottom="4dp"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_email" android:textColor="@color/primaryGreen" android:textSize="14sp" android:textStyle="bold" android:gravity="end|right"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>

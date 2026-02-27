@@ -17,7 +17,8 @@ class WirdViewModel @Inject constructor(
     private val application: Application
 ) : BaseViewModel() {
 
-    private val _uiState = MutableLiveData(WirdUiState())
+    private val fontPrefs = application.getSharedPreferences("font_prefs", android.content.Context.MODE_PRIVATE)
+    private val _uiState = MutableLiveData(WirdUiState(fontSize = fontPrefs.getFloat("wird_font_size", 18f)))
     val uiState: LiveData<WirdUiState> = _uiState
 
     init {
@@ -207,6 +208,7 @@ class WirdViewModel @Inject constructor(
         var newSize = current.fontSize + 2f
         if (newSize > 40f) newSize = 40f
         _uiState.value = current.copy(fontSize = newSize)
+        fontPrefs.edit().putFloat("wird_font_size", newSize).apply()
     }
 
     fun decreaseFontSize() {
@@ -214,6 +216,7 @@ class WirdViewModel @Inject constructor(
         var newSize = current.fontSize - 2f
         if (newSize < 14f) newSize = 14f
         _uiState.value = current.copy(fontSize = newSize)
+        fontPrefs.edit().putFloat("wird_font_size", newSize).apply()
     }
 
     private fun getDayOfWeekIndex(calendar: Calendar): Int {

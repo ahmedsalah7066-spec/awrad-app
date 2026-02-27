@@ -20,8 +20,8 @@ android {
         applicationId = "com.salah.awrad"
         minSdk = 24
         targetSdk = 36
-        versionCode = 6
-        versionName = "2.3.2"
+        versionCode = 7
+        versionName = "3.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         
